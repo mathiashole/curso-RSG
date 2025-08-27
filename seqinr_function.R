@@ -6,11 +6,10 @@ length_seq <- function(fasta_file) {
   # lee archivo multifasta
   seqs <- read.fasta(fasta_file)
   
-  # Crear tabla con resultados
+  # creo una tabla id de cada secuencia y su largo, guardandolo en dos columnas id y length
   results <- data.frame(
-    Sequence_ID = names(seqs),
-    Length = sapply(seqs, length),
-    stringsAsFactors = FALSE
+    id = names(seqs),
+    length = sapply(seqs, length) # 
   )
   
   return(results)
