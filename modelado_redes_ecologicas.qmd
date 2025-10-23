@@ -46,4 +46,10 @@ donde $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $r_1$ y $r_2$ s
 
 Interpretacion
 
+Si la redundancia no aporta ventaja selectiva, la deriva o mutaciones deletereas eliminarán una copia con el tiempo.
+
+Esto corresponde a un escenario de inestabilidad competitiva, donde sólo una copia “gana” y la otra se degrada.
+
+El resultado evolutivo final de este tipo de competencia suele ser la pseudogenización de una copia.
+
 deritenetienen testos paralogos en principio compartiran mucha homologia donde la duplicación y la pérdida de genes son procesos que se dan de forma constante, y podemos suponer que los miembros de la familia compiten por la función.
