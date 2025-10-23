@@ -1,11 +1,4 @@
 ---
-# title: "EJERCICIOS P1"
-# date: today
-# date-format: "DD MMMM, YYYY"
-# author: 
-#   Mathias Mangino
-# abstract:
-#     Genetica de poblaciones
 abstractspacing: double
 appendix: false
 fontfamily: libertine
