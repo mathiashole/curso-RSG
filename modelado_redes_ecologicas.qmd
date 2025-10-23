@@ -38,5 +38,4 @@ donde $N_1$ y $N_2$ es el tamaño de las poblaciones, $r_1$ y $r_2$ son sus tasa
 
 El termino $r_i N_i$ es el crecimiento poblacional sin limites, por otro lado, el termino ($\frac{N_i}{K_i}, \frac{\alpha_{ij} N_j}{Ki}$) es la competencia por un recurso limitado.
 
-El modelo de competencia de Lotka-Volterra puede usarse como modelo para la dinamica de las familias génicas donde la duplicación y 
-la pérdida de genes son procesos constantes, y los miembros de la familia compiten por la función.
+Este modelo de competencia lo podriamos usar para la dinamica de las familias génicas donde la duplicación y la pérdida de genes son procesos que se dan de forma constante, y podemos suponer que los miembros de la familia compiten por la función.
