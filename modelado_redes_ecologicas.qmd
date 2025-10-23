@@ -1,5 +1,5 @@
 ---
-title: "EJERCICIOS P1"
+# title: "EJERCICIOS P1"
 date: today
 date-format: "DD MMMM, YYYY"
 author: 
