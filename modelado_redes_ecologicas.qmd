@@ -36,10 +36,10 @@ donde $N_1$ y $N_2$ es el tamaño de las poblaciones, $r_1$ y $r_2$ son sus tasa
 
 El termino $r_i N_i$ es el crecimiento poblacional sin limites, por otro lado, el termino ($\frac{N_i}{K_i}, \frac{\alpha_{ij} N_j}{Ki}$) es la competencia por un recurso limitado.
 
-Este modelo de competencia lo podriamos usar para la dinamica de las familias génicas, estas se originan cuando un gen se duplica, pasamos a tener dos genes paralogos en el genoma. Con el timpo estos paralogos pueden acumular mutaciones independientes bajo la deriva genica y la selección, llevando a tres escenarios posibles:
+Este modelo de competencia lo podriamos usar para la dinamica de las familias génicas, estas se originan cuando un gen se duplica, pasamos a tener dos genes paralogos en el genoma. Con el timpo estos paralogos pueden acumular mutaciones independientes que bajo deriva genica y selección, conducen a tres escenarios posibles:
 
-1.
-2.
-3.
+1. Ambos paralogos conservan la funcion ancestral siendo redundantes
+2. Diverge tal que mantiene solo parte de la funcion ancestral o genera una nueva funcion
+3. Perder su función y degradarse generando pseudogen
 
 deritenetienen testos paralogos en principio compartiran mucha homologia donde la duplicación y la pérdida de genes son procesos que se dan de forma constante, y podemos suponer que los miembros de la familia compiten por la función.
