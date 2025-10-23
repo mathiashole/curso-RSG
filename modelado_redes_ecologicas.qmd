@@ -52,6 +52,12 @@ Esto corresponde a un escenario de inestabilidad competitiva, donde sólo una co
 
 El resultado evolutivo final de este tipo de competencia suele ser la pseudogenización de una copia.
 
+La subfuncionalización puede estabilizar ambas copias, porque cada una cumple una parte necesaria de la función ancestral.
+
+En cambio, si una copia adquiere una nueva función útil (neofuncionalización), puede incluso tener ventaja selectiva positiva (r₂ > r₁, por ejemplo).
+
+Este escenario representa la retención estable de duplicados funcionales en el genoma.
+
 No es que el pseudogén compita activamente; más bien es el resultado final de la competencia funcional y de la relajación de la selección.
 
 Una vez que una copia cae en una región genómica donde las mutaciones no son purgadas (baja presión selectiva), la deriva la lleva hacia la pérdida de función.
