@@ -4,6 +4,8 @@ date: today
 date-format: "DD MMMM, YYYY"
 author: 
   Mathias Mangino
+title-block-banner: false
+title-block-style: default
 # abstract:
 #     Genetica de poblaciones
 abstractspacing: double
