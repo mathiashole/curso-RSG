@@ -44,4 +44,6 @@ Este modelo de competencia lo podriamos usar para la dinamica de las familias g�
 
 donde $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $r_1$ y $r_2$ son las tasas de retención o pérdida, $K_1$ y $K_2$ son las capacidades de carga del genoma, y los coeficientes de competencia $\alpha_{12}$ y $\alpha_{21}$, representando cuánto afecta la presencia de un paralogo a la fijacion o mantenimiento de otro.
 
+Interpretacion
+
 deritenetienen testos paralogos en principio compartiran mucha homologia donde la duplicación y la pérdida de genes son procesos que se dan de forma constante, y podemos suponer que los miembros de la familia compiten por la función.
