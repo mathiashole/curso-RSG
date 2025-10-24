@@ -47,21 +47,15 @@ donde $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $r_1$ y $r_2$ s
 Interpretacion
 
 Si la redundancia no aporta ventaja selectiva, la deriva o mutaciones deletereas eliminarán una copia con el tiempo.
-
 Esto corresponde a un escenario de inestabilidad competitiva, donde sólo una copia “gana” y la otra se degrada.
-
 El resultado evolutivo final de este tipo de competencia suele ser la pseudogenización de una copia.
 
 La subfuncionalización puede estabilizar ambas copias, porque cada una cumple una parte necesaria de la función ancestral.
-
 En cambio, si una copia adquiere una nueva función útil (neofuncionalización), puede incluso tener ventaja selectiva positiva (r₂ > r₁, por ejemplo).
-
 Este escenario representa la retención estable de duplicados funcionales en el genoma.
 
 No es que el pseudogén compita activamente; más bien es el resultado final de la competencia funcional y de la relajación de la selección.
-
 Una vez que una copia cae en una región genómica donde las mutaciones no son purgadas (baja presión selectiva), la deriva la lleva hacia la pérdida de función.
-
 En otras palabras, la competencia inicial y la selección laxa posterior determinan su destino.
 
 deritenetienen testos paralogos en principio compartiran mucha homologia donde la duplicación y la pérdida de genes son procesos que se dan de forma constante, y podemos suponer que los miembros de la familia compiten por la función.
