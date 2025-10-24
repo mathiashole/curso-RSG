@@ -46,9 +46,7 @@ donde $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $r_1$ y $r_2$ s
 
 Interpretacion
 
-Si la redundancia no aporta ventaja selectiva, la deriva o mutaciones deletereas eliminarán una copia con el tiempo.
-Esto corresponde a un escenario de inestabilidad competitiva, donde sólo una copia “gana” y la otra se degrada.
-El resultado evolutivo final de este tipo de competencia suele ser la pseudogenización de una copia.
+Si la copias no aporta una ventaja evolutiva, (quien actua aca? la deriva o mutaciones deletereas) eliminarán una copia con el tiempo. Esto es el escenario competencia, donde sólo una copia se conserva "gana" y la otra se degrada. El resultado evolutivo de esta competencia es la pseudogenización de una copia y la conservacion de la otra.
 
 La subfuncionalización puede estabilizar ambas copias, porque cada una cumple una parte necesaria de la función ancestral.
 En cambio, si una copia adquiere una nueva función útil (neofuncionalización), puede incluso tener ventaja selectiva positiva (r₂ > r₁, por ejemplo).
