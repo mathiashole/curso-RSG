@@ -26,7 +26,7 @@ format:
 
 # Adaptación del Modelo Lotka–Volterra a la Competencia entre familias genicas
 
-El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen:
+El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
 
 $\frac{dN_1}{dt} = r_1N_1 \left(1-\frac{N_1+\alpha_{12}N_2}{K_1} \right)$
 
