@@ -6,10 +6,10 @@ monofont: inconsolata
 monofontoptions: scaled=.95
 fontsize: 12pt
 geometry: 
-  - top=2cm
-  - bottom=2cm
-  - left=2cm
-  - right=2cm
+  - top=0.5cm
+  - bottom=0.5cm
+  - left=1.5cm
+  - right=1.5cm
 urlcolor: darkblue
 highlight-style: arrow
 format: 
