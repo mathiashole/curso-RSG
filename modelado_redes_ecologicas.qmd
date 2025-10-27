@@ -38,7 +38,7 @@ El termino $r_i N_i$ es el crecimiento poblacional de la especie $i$ sin restric
 
 La idea es aplicar este modelo de competencia para las dinamicas de las familias génicas. Las familias génicas se originan cuando un gen se duplica, pasamos a tener dos genes paralogos en el genoma. Con el timpo estos paralogos pueden acumular mutaciones independientes que bajo deriva genica y selección, conducen a tres escenarios posibles
 
-1. Ambos paralogos conservan la funcion ancestral siendo redundantes
+1. Ambos paralogos conservan la misma funcion
 2. Diverge tal que mantiene solo parte de la funcion ancestral o genera una nueva funcion
 3. Perder su función y degradarse generando un pseudogen
 
