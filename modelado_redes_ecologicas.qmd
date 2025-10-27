@@ -24,15 +24,15 @@ format:
 26 Octubre, 2025
 </div>
 
-# Adaptación del Modelo Lotka–Volterra a la competencia intra familia genica
+# Adaptación del modelo Lotka-Volterra a la competencia intra familia genica
 
-El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
+Para la tarea de modelado de redes ecológicas, adaptamos el modelo de Lotka–Volterra con el objetivo de describir las dinámicas evolutivas de las familias multigénicas. El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
 
 $\frac{dN_1}{dt} = r_1N_1 \left(\frac{K_1-N_1+\alpha_{12}N_2}{K_1} \right)$
 
 $\frac{dN_2}{dt} = r_2N_2 \left(\frac{K_2-N_2+\alpha_{21}N_1}{K_2} \right)$
 
-donde $N_1$ y $N_2$ es el tamaño de las poblaciones, $r_1$ y $r_2$ son sus tasas de crecimiento, $K_1$ y $K_2$ son las capacidades de carga del ambiente, y los coeficientes de competencia se representan con $\alpha_{12}$ y $\alpha_{21}$. Este conficiente representa cuánto afecta la presencia de una especie al crecimiento de la otra.
+En este sistema, $r_1$ y $r_2$ son sus tasas de crecimiento, $N_1$ y $N_2$ son el tamaño de las poblaciones, $K_1$ y $K_2$ son las capacidades de carga del ambiente, y los coeficientes de competencia se representan con las letras $\alpha_{12}$ y $\alpha_{21}$. Este conficiente representa cuánto afecta la presencia de una especie al crecimiento de la otra.
 
 El termino $r_i N_i$ es el crecimiento poblacional sin restricciones, por otro lado, el aumento de copias de un gen esta limitado por la abundancia propia $N_i$ y se ve influido por el otro paralogo $\alpha_{ij}N_j$. Si $\alpha_{ij}$ es negativo, hay competencias entre genes, mientras que si es positivo, son complementarios o habria cooperacion.
 
