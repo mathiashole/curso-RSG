@@ -44,7 +44,7 @@ Este modelo de competencia lo podriamos usar para la dinamica de las familias g�
 
 donde $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $r_1$ y $r_2$ son las tasas de retención o pérdida, $K_1$ y $K_2$ son las capacidades de carga del genoma, y los coeficientes de competencia $\alpha_{12}$ y $\alpha_{21}$, representando cuánto afecta la presencia de un paralogo a la fijacion o mantenimiento de otro.
 
-Si la copias no aporta una ventaja evolutiva, las mutaciones junto con la deriva eliminarán una copia con el tiempo. Esto es el escenario de competencia, donde sólo una copia se conserva "beneficio" y la otra se degrada. El resultado evolutivo de esta competencia es la pseudogenización de una copia y la conservacion de la otra.
+Cuando ambas copias son funcionalmente equivalentes, si la copias no aporta una ventaja evolutiva, las mutaciones junto con la deriva eliminarán una copia con el tiempo. Esto es el escenario de competencia, donde sólo una copia se conserva "beneficio" y la otra se degrada. El resultado evolutivo de esta competencia es la pseudogenización de una copia y la conservacion de la otra.
 
 La mantencion de parte de la funcion ancestral (subfuncionalización) puede mantener en el equilibrio ambas copias, dado que cada copia cumple una parte de la función. Asimismo, si una copia adquiere una nueva función (neofuncionalización), puede tener ventaja selectiva positiva ($r_2 > r_1$, por ejemplo). Este escenario representa la retención de los dos genes con funciones parciales en el genoma.
 
