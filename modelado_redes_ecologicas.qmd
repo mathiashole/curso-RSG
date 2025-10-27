@@ -28,9 +28,9 @@ format:
 
 El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
 
-$\frac{dN_1}{dt} = r_1N_1 \left(1-\frac{N_1+\alpha_{12}N_2}{K_1} \right)$
+$\frac{dN_1}{dt} = r_1N_1 \left(\frac{K_1-N_1+\alpha_{12}N_2}{K_1} \right)$
 
-$\frac{dN_2}{dt} = r_2N_2 \left(1-\frac{N_2+\alpha_{21}N_1}{K_2} \right)$
+$\frac{dN_2}{dt} = r_2N_2 \left(\frac{K_2-N_2+\alpha_{21}N_1}{K_2} \right)$
 
 donde $N_1$ y $N_2$ es el tamaño de las poblaciones, $r_1$ y $r_2$ son sus tasas de crecimiento, $K_1$ y $K_2$ son las capacidades de carga del ambiente, y los coeficientes de competencia se representan con $\alpha_{12}$ y $\alpha_{21}$. Este conficiente representa cuánto afecta la presencia de una especie al crecimiento de la otra.
 
