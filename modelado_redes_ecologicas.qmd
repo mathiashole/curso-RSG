@@ -48,8 +48,4 @@ Cuando ambas copias son funcionalmente equivalentes, si la copias no aporta una 
 
 Las copias funcionalmente son diferentes, menteniendo parte de la funcion ancestral (subfuncionalización) puede mantener en el equilibrio ambas copias, dado que cada copia cumple una parte de la función. Asimismo, si una copia adquiere una nueva función (neofuncionalización), puede tener ventaja selectiva positiva ($r_2 > r_1$, por ejemplo). Este escenario representa la retención de los dos genes con funciones diferentes en el genoma, análoga a la coexistencia de especies que usan nichos distintos.
 
-No es que el pseudogén compita activamente; más bien es el resultado final de la competencia funcional y de la relajación de la selección.
-Una vez que una copia cae en una región genómica donde las mutaciones no son purgadas (baja presión selectiva), la deriva la lleva hacia la pérdida de función.
-En otras palabras, la competencia inicial y la selección laxa posterior determinan su destino.
-
-deritenetienen testos paralogos en principio compartiran mucha homologia donde la duplicación y la pérdida de genes son procesos que se dan de forma constante, y podemos suponer que los miembros de la familia compiten por la función.
+Una copia pierde la capcidad funcional (pseudogén), siendo el resultado final de la competencia y de la relajación de la selección. Una vez que una copia cae en una región genómica donde las mutaciones no son eliminadas (presión selectiva relajada), la deriva conduce hacia la pérdida de función. Es decir, la competencia fuerte inicial y la selección flexible luego determinan le perdidad de funcion. esto equivale a la exclusión competitiva, una población domina y la otra se extingue.
