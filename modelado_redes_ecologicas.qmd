@@ -24,7 +24,7 @@ format:
 26 Octubre, 2025
 </div>
 
-# Adaptación del modelo Lotka-Volterra a la competencia intra familia genica
+# Tarea de modelado de redes ecológicas
 
 Para la tarea de modelado de redes ecológicas, adaptamos el modelo de Lotka–Volterra con el objetivo de describir las dinámicas evolutivas de las familias multigénicas. El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
 
