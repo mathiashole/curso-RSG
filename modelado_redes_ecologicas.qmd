@@ -26,7 +26,7 @@ format:
 
 # Tarea de modelado de redes ecológicas
 
-Para la tarea de modelado de redes ecológicas, adaptamos el modelo de Lotka-Volterra para describir las dinámicas de las familias multigénicas. El modelo de Lotka-Volterra se usa para describir la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones que lo describen
+Para la tarea de modelado de redes ecológicas, adaptamos el modelo de Lotka-Volterra para describir los cambios en la distribución de las familias multigénicas en el genoma. Este modelo de Lotka-Volterra se usa para describir la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones que lo describen
 
 $\frac{dN_1}{dt} = r_1N_1 \left(\frac{K_1-N_1+\alpha_{12}N_2}{K_1} \right)$
 
