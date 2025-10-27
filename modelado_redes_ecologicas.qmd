@@ -34,7 +34,7 @@ $\frac{dN_2}{dt} = r_2N_2 \left(1-\frac{N_2+\alpha_{21}N_1}{K_2} \right)$
 
 donde $N_1$ y $N_2$ es el tamaño de las poblaciones, $r_1$ y $r_2$ son sus tasas de crecimiento, $K_1$ y $K_2$ son las capacidades de carga del ambiente, y los coeficientes de competencia se representan con $\alpha_{12}$ y $\alpha_{21}$. Este conficiente representa cuánto afecta la presencia de una especie al crecimiento de la otra.
 
-El termino $r_i N_i$ es el crecimiento poblacional sin limites, por otro lado, el termino ($\frac{N_i}{K_i}, \frac{\alpha_{ij} N_j}{Ki}$) es la competencia por un recurso limitado.
+El termino $r_i N_i$ es el crecimiento poblacional sin restricciones, por otro lado, el aumento de copias de un gen esta limitado por la abundancia propia $N_i$ y se ve influido por el otro paralogo $\alpha_{ij}N_j$. Si $\alpha_{ij}$ es negativo, hay competencias entre genes, mientras que si es positivo, son complementarios o habria cooperacion.
 
 Este modelo de competencia lo podriamos usar para la dinamica de las familias génicas, estas se originan cuando un gen se duplica, pasamos a tener dos genes paralogos en el genoma. Con el timpo estos paralogos pueden acumular mutaciones independientes que bajo deriva genica y selección, conducen a tres escenarios posibles
 
