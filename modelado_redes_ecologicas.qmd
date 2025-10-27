@@ -26,7 +26,7 @@ format:
 
 # Tarea de modelado de redes ecológicas
 
-Para la tarea de modelado de redes ecológicas, adaptamos el modelo de Lotka–Volterra con el objetivo de describir las dinámicas evolutivas de las familias multigénicas. El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
+Para la tarea de modelado de redes ecológicas, adaptamos el modelo de Lotka-Volterra para describir las dinámicas de las familias multigénicas. El modelo de Lotka-Volterra se usa para describir la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones que lo describen
 
 $\frac{dN_1}{dt} = r_1N_1 \left(\frac{K_1-N_1+\alpha_{12}N_2}{K_1} \right)$
 
@@ -34,17 +34,17 @@ $\frac{dN_2}{dt} = r_2N_2 \left(\frac{K_2-N_2+\alpha_{21}N_1}{K_2} \right)$
 
 En este sistema, $r_1$ y $r_2$ son sus tasas de crecimiento, $N_1$ y $N_2$ son el tamaño de las poblaciones, $K_1$ y $K_2$ son las capacidades de carga del ambiente, y los coeficientes de competencia se representan con las letras $\alpha_{12}$ y $\alpha_{21}$. Este conficiente representa cuánto afecta la presencia de una especie al crecimiento de la otra.
 
-El termino $r_i N_i$ es el crecimiento poblacional sin restricciones, por otro lado, el aumento de copias de un gen esta limitado por la abundancia propia $N_i$ y se ve influido por el otro paralogo $\alpha_{ij}N_j$. Si $\alpha_{ij}$ es negativo, hay competencias entre genes, mientras que si es positivo, son complementarios o habria cooperacion.
+El termino $r_i N_i$ es el crecimiento poblacional de la especie $i$ sin restricciones. Por otro lado, ese crecimiento poblacional se ve limitado por $N_i$ y por la interaccion con la otra especie $\alpha_{ij}N_j$.
 
-Este modelo de competencia lo podriamos usar para la dinamica de las familias génicas, estas se originan cuando un gen se duplica, pasamos a tener dos genes paralogos en el genoma. Con el timpo estos paralogos pueden acumular mutaciones independientes que bajo deriva genica y selección, conducen a tres escenarios posibles
+La idea es aplicar este modelo de competencia para las dinamicas de las familias génicas. Las familias génicas se originan cuando un gen se duplica, pasamos a tener dos genes paralogos en el genoma. Con el timpo estos paralogos pueden acumular mutaciones independientes que bajo deriva genica y selección, conducen a tres escenarios posibles
 
 1. Ambos paralogos conservan la funcion ancestral siendo redundantes
 2. Diverge tal que mantiene solo parte de la funcion ancestral o genera una nueva funcion
-3. Perder su función y degradarse generando pseudogen
+3. Perder su función y degradarse generando un pseudogen
 
-donde $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $r_1$ y $r_2$ son las tasas de retención o pérdida, $K_1$ y $K_2$ son las capacidades de carga del genoma, y los coeficientes de competencia $\alpha_{12}$ y $\alpha_{21}$, representando cuánto afecta la presencia de un paralogo a la fijacion o mantenimiento de otro.
+donde $r_1$ y $r_2$ son las tasas de retención o pérdida del gen, $N_1$ y $N_2$ es el numero de copias del gen en el genoma, $K_1$ y $K_2$ son las capacidades de carga del genoma, y los coeficientes de competencia $\alpha_{12}$ y $\alpha_{21}$, representando cuánto afecta la presencia de un paralogo a la fijacion o mantenimiento de otro.
 
-Cuando ambas copias son funcionalmente equivalentes, si la copias no aporta una ventaja evolutiva, las mutaciones junto con la deriva eliminarán una copia con el tiempo. Esto es el escenario de competencia, donde sólo una copia se conserva "beneficio" y la otra se degrada. El resultado evolutivo de esta competencia es la pseudogenización de una copia y la conservacion de la otra.
+Cuando ambas copias son funcionalmente similares y la copias no aporta una ventaja adaptativa. En ese caso las mutaciones junto con la deriva eliminarán una copia con el tiempo. Esto es el escenario de competencia y el resultado de esta competencia es la pseudogenización de una copia y la conservacion de la otra.
 
 Las copias funcionalmente son diferentes, menteniendo parte de la funcion ancestral (subfuncionalización) puede mantener en el equilibrio ambas copias, dado que cada copia cumple una parte de la función. Asimismo, si una copia adquiere una nueva función (neofuncionalización), puede tener ventaja selectiva positiva ($r_2 > r_1$, por ejemplo). Este escenario representa la retención de los dos genes con funciones diferentes en el genoma, análoga a la coexistencia de especies que usan nichos distintos.
 
