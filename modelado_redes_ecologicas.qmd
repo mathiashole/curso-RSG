@@ -21,10 +21,10 @@ format:
 **Mathias**
 </div>
 <div style="text-align: right;">
-23 Octubre, 2025
+26 Octubre, 2025
 </div>
 
-# Adaptación del Modelo Lotka–Volterra a la Competencia entre familias genicas
+# Adaptación del Modelo Lotka–Volterra a la competencia intra familia genica
 
 El modelo de Lotka-Volterra describe la dinamica de dos especies compitiendo por un mismo recurso. Siendo las ecuaciones diferencial que lo describen
 
