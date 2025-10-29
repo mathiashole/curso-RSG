@@ -25,3 +25,36 @@ format:
 </div>
 
 # Tarea de dinamica molecular
+
+1. Introducción
+
+La Dinámica Molecular (DM) es una herramienta computacional que permite estudiar el comportamiento estructural de biomoléculas a lo largo del tiempo, considerando el movimiento atómico bajo condiciones simuladas. A diferencia de los modelos estáticos, la DM permite analizar cómo una proteína fluctúa, se pliega o mantiene su estabilidad en un entorno simulado similar al fisiológico.
+
+En este trabajo se aplicó un flujo básico de análisis de Dinámica Molecular sobre la proteína 1CRN (crambina), una proteína pequeña y bien caracterizada estructuralmente, para explorar su estabilidad conformacional. Se utilizaron los archivos del sistema previamente equilibrado (topología .psf y trayectoria .dcd) y se analizaron descriptores estructurales clave como el RMSD (Root Mean Square Deviation) y el Radio de Giro (RGYR).
+
+2. Metodología
+
+Las trayectorias de la simulación se cargaron en el entorno de análisis (VMD/Colab) junto con la estructura inicial de referencia.
+
+RMSD mide el desplazamiento promedio de los átomos del esqueleto proteico respecto a la estructura inicial. Es un indicador de estabilidad global: valores bajos y estables indican que la proteína mantiene su conformación nativa.
+
+RGYR cuantifica el grado de compactación de la proteína. Un valor estable del radio de giro sugiere que la proteína no se expande ni colapsa, manteniendo su empaquetamiento interno.
+
+Las trayectorias fueron alineadas sobre la estructura inicial para eliminar traslaciones y rotaciones globales. Los descriptores se calcularon con los módulos de análisis estándar, generando gráficos de RMSD y RGYR a lo largo del tiempo de simulación.
+
+3. Resultados y Análisis
+
+RMSD: El RMSD del esqueleto proteico mostró una rápida estabilización en torno a 0.18–0.25 nm después de los primeros 10 ns de simulación. Este comportamiento indica que la estructura alcanza un estado estable y no presenta grandes reorganizaciones estructurales durante la trayectoria.
+
+RGYR: El radio de giro permaneció aproximadamente constante alrededor de 0.98 ± 0.02 nm, sin tendencia a expansión o colapso. Este resultado sugiere que la compactación de la proteína se mantiene estable durante la simulación.
+
+Figura 1. Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.
+Figura 2. Variación del radio de giro (RGYR) de la proteína 1CRN a lo largo del tiempo.
+
+4. Discusión y Conclusiones
+
+Los resultados obtenidos muestran una alta estabilidad conformacional de la proteína 1CRN a lo largo de la simulación. El comportamiento del RMSD refleja que la estructura alcanza rápidamente un equilibrio dinámico sin grandes desviaciones, mientras que el RGYR constante confirma la conservación de la compactación del sistema.
+
+Estos patrones son consistentes con la naturaleza altamente estable de la crambina, cuya red de enlaces disulfuro contribuye a mantener su estructura nativa.
+
+En conclusión, la Dinámica Molecular demuestra ser una herramienta eficaz para evaluar la estabilidad estructural de proteínas, permitiendo cuantificar la magnitud de las fluctuaciones atómicas y caracterizar el grado de compactación a lo largo del tiempo.
