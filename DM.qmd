@@ -30,7 +30,7 @@ format:
 
 La Dinámica Molecular (DM) nos permite estudiar las dinamicas estructurales de diferentes biomoléculas en un periodo de tiempo, considerando el movimiento atómico bajo condiciones simuladas. La DM permite analizar cómo una proteína varia a lo largo de ese tiempo, como se pliega o mantiene su estabilidad en un entorno simulado similar un entorno fisiológico.
 
-En este trabajo se aplicó un flujo básico de análisis de Dinámica Molecular sobre la proteína 1CRN (crambina), una proteína pequeña y bien caracterizada estructuralmente, para explorar su estabilidad conformacional. Se utilizaron los archivos del sistema previamente equilibrado (topología .psf y trayectoria .dcd) y se analizaron descriptores estructurales clave como el RMSD (Root Mean Square Deviation) y el Radio de Giro (RGYR).
+En este trabajo nos propusimos aplicar un pipeline básico de análisis de dinámica molecular sobre la proteína 1CRN (crambina), propuesta en la clase, una proteína pequeña de unos 45 aminoacidos y bien caracterizada estructuralmente. Dado este pipeline nos proponemos explorar su estabilidad conformacional. Se analizaron descriptores estructurales como son RMSD (Root Mean Square Deviation) y Radio de Giro (RGYR).
 
 2. Metodología
 
