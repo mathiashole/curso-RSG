@@ -42,11 +42,13 @@ Las trayectorias fueron alineadas sobre la estructura inicial para eliminar tras
 
 3. Resultados y Análisis
 
-El RMSD del esqueleto proteico mostró una rápida estabilización en torno a 0.18 - 0.25 nm después de los primeros 10 ns de simulación. Este comportamiento indica que la estructura alcanza un estado estable y no presenta grandes reorganizaciones estructurales durante la trayectoria.
+El RMSD del esqueleto proteico mostró un incremento inicial durante los primeros 5 ns, alcanzando una meseta alrededor de 4.55 nm, valor que se mantuvo estable con fluctuaciones menores a ±0.04 nm (≈5%). Este comportamiento sugiere que, tras la relajación inicial, la estructura alcanzó un estado estable sin grandes reorganizaciones globales. El RMSD del esqueleto proteico mostró una rápida estabilización en torno a 0.18 - 0.25 nm después de los primeros 10 ns de simulación. Este comportamiento indica que la estructura alcanza un estado estable y no presenta grandes reorganizaciones estructurales durante la trayectoria.
 
 El radio de giro permaneció aproximadamente constante alrededor de 0.98 ± 0.02 nm, sin tendencia a expansión o colapso. Este resultado sugiere que la compactación de la proteína se mantiene estable durante la simulación.
 
 Figura 1. Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.
+![Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.](../../Descargas/rmsd_plot.png){#fig-ventas width="80%"}
+
 Figura 2. Variación del radio de giro (RGYR) de la proteína 1CRN a lo largo del tiempo.
 
 4. Discusión y Conclusiones
