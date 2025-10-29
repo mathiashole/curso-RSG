@@ -34,8 +34,6 @@ En este trabajo nos propusimos aplicar un pipeline básico de análisis de diná
 
 2. Metodología
 
-Las trayectorias de la simulación se cargaron en el entorno de análisis (VMD/Colab) junto con la estructura inicial de referencia.
-
 RMSD mide el desplazamiento promedio de los átomos del esqueleto proteico respecto a la estructura inicial. Es un indicador de estabilidad global: valores bajos y estables indican que la proteína mantiene su conformación nativa.
 
 RGYR cuantifica el grado de compactación de la proteína. Un valor estable del radio de giro sugiere que la proteína no se expande ni colapsa, manteniendo su empaquetamiento interno.
@@ -44,9 +42,9 @@ Las trayectorias fueron alineadas sobre la estructura inicial para eliminar tras
 
 3. Resultados y Análisis
 
-RMSD: El RMSD del esqueleto proteico mostró una rápida estabilización en torno a 0.18–0.25 nm después de los primeros 10 ns de simulación. Este comportamiento indica que la estructura alcanza un estado estable y no presenta grandes reorganizaciones estructurales durante la trayectoria.
+El RMSD del esqueleto proteico mostró una rápida estabilización en torno a 0.18 - 0.25 nm después de los primeros 10 ns de simulación. Este comportamiento indica que la estructura alcanza un estado estable y no presenta grandes reorganizaciones estructurales durante la trayectoria.
 
-RGYR: El radio de giro permaneció aproximadamente constante alrededor de 0.98 ± 0.02 nm, sin tendencia a expansión o colapso. Este resultado sugiere que la compactación de la proteína se mantiene estable durante la simulación.
+El radio de giro permaneció aproximadamente constante alrededor de 0.98 ± 0.02 nm, sin tendencia a expansión o colapso. Este resultado sugiere que la compactación de la proteína se mantiene estable durante la simulación.
 
 Figura 1. Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.
 Figura 2. Variación del radio de giro (RGYR) de la proteína 1CRN a lo largo del tiempo.
