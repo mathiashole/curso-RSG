@@ -46,8 +46,8 @@ El RMSD del esqueleto proteico mostró un incremento inicial durante los primero
 
 El radio de giro permaneció aproximadamente constante alrededor de 0.98 ± 0.02 nm, sin tendencia a expansión o colapso. Este resultado sugiere que la compactación de la proteína se mantiene estable durante la simulación.
 
-Figura 1. Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.
 ![Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.](../../Descargas/rmsd_plot.png){#fig-ventas width="80%"}
+Figura 1. Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.
 
 Figura 2. Variación del radio de giro (RGYR) de la proteína 1CRN a lo largo del tiempo.
 
