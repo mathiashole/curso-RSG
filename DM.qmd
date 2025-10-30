@@ -36,10 +36,6 @@ RMSD (Root Mean Square Deviation) mide el desplazamiento promedio de los átomos
 
 RGYR (Radio de Giro) mide el grado de compactación de la proteína, útil para detectar expansión o colapso estructural de la proteina. Un valor con poca variacion de radio de giro sugiere que la proteina mantiene su empaquetamiento interno, no se expande ni se colapsa.
 
-RMSD mide el desplazamiento promedio de los átomos del esqueleto proteico respecto a la estructura inicial. Es un indicador de estabilidad global: valores bajos y estables indican que la proteína mantiene su conformación nativa.
-
-RGYR cuantifica el grado de compactación de la proteína. Un valor estable del radio de giro sugiere que la proteína no se expande ni colapsa, manteniendo su empaquetamiento interno.
-
 Las trayectorias fueron alineadas sobre la estructura inicial para eliminar traslaciones y rotaciones globales. Los descriptores se calcularon con los módulos de análisis estándar, generando gráficos de RMSD y RGYR a lo largo del tiempo de simulación.
 
 3. Resultados y Análisis
