@@ -32,7 +32,7 @@ La dinámica molecular nos permite estudiar las dinamicas estructurales de difer
 
 En este trabajo nos propusimos aplicar un pipeline básico de análisis de dinámica molecular sobre la proteína 1CRN (crambina), propuesta en la clase, una proteína pequeña de unos 45 aminoacidos y bien caracterizada. Dado este pipeline nos proponemos explorar su estabilidad conformacional. Para esto se analizaron descriptores estructurales como son RMSD (Root Mean Square Deviation) y Radio de Giro (RGYR).
 
-RMSD (Root Mean Square Deviation): mide el desplazamiento promedio de los átomos del esqueleto (Cα) respecto a la estructura inicial, indicador de estabilidad global.
+RMSD (Root Mean Square Deviation) mide el desplazamiento promedio de los átomos del esqueleto proteico respecto a la estructura inicial. Este es un indicador de estabilidad global, valores bajos con poca variabilidad indican que la proteina mantiene su conformacion en el tiempo.
 
 RGYR (Radio de Giro): cuantifica el grado de compactación de la proteína, útil para detectar expansión o colapso estructural.
 
