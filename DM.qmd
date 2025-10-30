@@ -30,7 +30,11 @@ format:
 
 La dinámica molecular nos permite estudiar las dinamicas estructurales de diferentes biomoléculas en un periodo de tiempo, considerando el movimiento atómico bajo condiciones simuladas. La dinámica molecular permite analizar cómo una proteína varia a lo largo de ese tiempo, como se pliega o mantiene su estabilidad en un entorno simulado similar un entorno fisiológico.
 
-En este trabajo nos propusimos aplicar un pipeline básico de análisis de dinámica molecular sobre la proteína 1CRN (crambina), propuesta en la clase, una proteína pequeña de unos 45 aminoacidos y bien caracterizada estructuralmente. Dado este pipeline nos proponemos explorar su estabilidad conformacional. Se analizaron descriptores estructurales como son RMSD (Root Mean Square Deviation) y Radio de Giro (RGYR).
+En este trabajo nos propusimos aplicar un pipeline básico de análisis de dinámica molecular sobre la proteína 1CRN (crambina), propuesta en la clase, una proteína pequeña de unos 45 aminoacidos y bien caracterizada. Dado este pipeline nos proponemos explorar su estabilidad conformacional. Para esto se analizaron descriptores estructurales como son RMSD (Root Mean Square Deviation) y Radio de Giro (RGYR).
+
+RMSD (Root Mean Square Deviation): mide el desplazamiento promedio de los átomos del esqueleto (Cα) respecto a la estructura inicial, indicador de estabilidad global.
+
+RGYR (Radio de Giro): cuantifica el grado de compactación de la proteína, útil para detectar expansión o colapso estructural.
 
 2. Metodología
 
