@@ -38,12 +38,11 @@ RGYR (Radio de Giro) mide el grado de compactación de la proteína, útil para 
 
 Las trayectorias fueron alineadas sobre la estructura inicial para eliminar traslaciones y rotaciones globales. Los descriptores se calcularon con los módulos de análisis estándar, generando gráficos de RMSD y RGYR a lo largo del tiempo de simulación.
 
-3. Resultados y Análisis
+2. Resultados
 
-Desplazamiento estructural global (RMSD) el valor promedio del RMSD luego de establecerce en equilibrio $(t \geq 5 ns)$ fue de $4.55 \pm 0.04 nm$, con un rango de variacion de $0.23 nm$. Inicialmente los primeros nanosegundos, el RMSD mostró un incremento pronunciado asociado al proceso de relajación de la estructura desde su conformación inicial.
-El RMSD del esqueleto proteico mostró un incremento inicial durante los primeros 5 ns, alcanzando una meseta alrededor de 4.55 nm, valor que se mantuvo estable con fluctuaciones menores a ±0.04 nm (≈5%). Este comportamiento sugiere que, tras la relajación inicial, la estructura alcanzó un estado estable sin grandes reorganizaciones globales. El RMSD del esqueleto proteico mostró una rápida estabilización en torno a 0.18 - 0.25 nm después de los primeros 10 ns de simulación. Este comportamiento indica que la estructura alcanza un estado estable y no presenta grandes reorganizaciones estructurales durante la trayectoria.
+La raíz cuadrada media de la desviación estándar (RMSD) el valor promedio del RMSD luego de establecerce en equilibrio $(t \geq 5 ns)$ fue de $4.55 \pm 0.04 nm$, con un rango de variacion de $0.23 nm$. Inicialmente los primeros nanosegundos, el RMSD mostró un incremento pronunciado asociado al proceso de relajación de la estructura desde su conformación inicial de la proteina, hasta llegar al equlibrio en ese tiempo dado de  $20 ns$. Este aumento es el resultado de los ajustes que se dan en el sistema a las condiciones planteadas en la simulación (ej: solvente, temperatura, presión), luego la estructura alcanza un estado estable que oscila alrededor de el valor promedio.
 
-El radio de giro permaneció aproximadamente constante alrededor de 0.98 ± 0.02 nm, sin tendencia a expansión o colapso. Este resultado sugiere que la compactación de la proteína se mantiene estable durante la simulación.
+El radio de giro mostró un valor medio de $3.21 \pm 0.009 nm$, con oscilaciones con un rango de $3.18 - 3.23 nm$. La estabilidad de este descriptor a lo largo del tiempo corresponde a que no se produjeron grandes cambios en el radio de giro de la proteina, manteniendo la estabilidad de 1CRN, característica de la conformación nativa.
 
 ![Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.](../../Descargas/rmsd_plot.png){#fig-rmsd width="80%" fig-align="center" fig-pos="H"}
 
