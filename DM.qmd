@@ -28,9 +28,9 @@ format:
 
 1. Introducción
 
-La dinámica molecular nos permite estudiar las dinamicas estructurales de diferentes biomoléculas en un periodo de tiempo, considerando el movimiento atómico bajo condiciones simuladas. La dinámica molecular permite analizar cómo una proteína varia a lo largo de ese tiempo, como se pliega o mantiene su estabilidad en un entorno simulado similar un entorno fisiológico.
+La dinámica molecular permite analizar cómo una proteína varia a lo largo de ese tiempo, como se pliega o mantiene su estabilidad en un entorno simulado similar un entorno fisiológico.
 
-En este trabajo nos propusimos aplicar un pipeline básico de análisis de dinámica molecular sobre la proteína 1CRN (crambina), propuesta en la clase, una proteína pequeña de unos 45 aminoacidos y bien caracterizada. Dado este pipeline nos proponemos explorar su estabilidad conformacional. Para esto se analizaron descriptores estructurales como son RMSD (Root Mean Square Deviation) y Radio de Giro (RGYR).
+En este trabajo nos propusimos aplicar un pipeline de análisis de dinámica molecular sobre la proteína 1CRN (crambina), propuesta en la clase, una proteína pequeña de unos 45 aminoacidos y bien caracterizada. Dado este pipeline nos proponemos explorar su estabilidad conformacional. Para esto se analizaron descriptores estructurales como son RMSD (Root Mean Square Deviation) y Radio de Giro (RGYR).
 
 RMSD (Root Mean Square Deviation) mide el desplazamiento promedio de los átomos del esqueleto proteico respecto a la estructura inicial. Este es un indicador de estabilidad global, valores bajos con poca variabilidad indican que la proteina mantiene su conformacion en el tiempo.
 
@@ -42,19 +42,32 @@ El valor promedio del RMSD luego de establecerce en equilibrio $(t \geq 5 ns)$ f
 
 El radio de giro mostró un valor medio de $3.21 \pm 0.009 nm$, con oscilaciones con un rango de $3.18 - 3.23 nm$. La estabilidad de este descriptor a lo largo del tiempo corresponde a que no se produjeron grandes cambios en el radio de giro de la proteina, manteniendo la estabilidad de 1CRN, característica de la conformación nativa.
 
-![Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.](../../Descargas/rmsd_plot.png){#fig-rmsd width="80%" fig-align="center" fig-pos="H"}
+![Evolución del RMSD del esqueleto (Cα) de la proteína 1CRN en función del tiempo de simulación.](../../Descargas/rmsd_plot.png){#fig-rmsd width="75%" fig-align="center" fig-pos="H"}
 
-![Variación del radio de giro (RGYR) de la proteína 1CRN a lo largo del tiempo.](../../Descargas/rgyr_plot.png){#fig-rmsd width="80%" fig-align="center" fig-pos="H"}
+![Variación del radio de giro (RGYR) de la proteína 1CRN a lo largo del tiempo.](../../Descargas/rgyr_plot.png){#fig-rmsd width="75%" fig-align="center" fig-pos="H"}
 
 
 3. Discusión y Conclusiones
 
 Discusión
 
-El conjunto de resultados indica que, luego de una fase inicial de ajuste estructural, se muestra una gran estabilidad conformacional de la proteína 1CRN a lo largo de la simulación. El RMSD constante y el radio de giro estable reflejan que el sistema alcanzó un equilibrio conformacional y no presenta indicios de 
-desequilibrio en el tiempo evaluado. Sin embargo, debemos aumentar los tiempos de simulacion para verificar que no se esperan grandes cambios estructurales.
+El conjunto de resultados indica que, luego de una fase inicial de ajuste estructural, se muestra una gran estabilidad conformacional de la proteína 1CRN a lo largo de la simulación. El RMSD constante y el radio de giro estable reflejan que el sistema alcanzó un equilibrio conformacional y no presenta indicios de desequilibrio en el tiempo evaluado. Sin embargo, debemos aumentar los tiempos de simulacion para verificar que no se esperan grandes cambios estructurales.
 
-Estos patrones son consistentes con la naturaleza altamente estable de la crambina, cuya red de enlaces disulfuro contribuye a mantener su estructura nativa.
+Entonces, si tu valor medio es 4.55 nm (~45 Å), hay dos posibilidades:
+
+⚠️ El RMSD se calculó sobre toda la proteína sin alinear correctamente (por ejemplo, incluyendo traslación o rotación global).
+
+⚠️ La unidad está mal interpretada (a veces GROMACS muestra RMSD en nm, pero hay que recordar que valores “normales” son 0.1–0.3 nm para estructuras estables).
+
+📈 3️⃣ Cómo interpretarlo correctamente
+
+Si en realidad son 4.55 Å (0.455 nm) →
+✅ La proteína está razonablemente estable, con fluctuaciones normales tras el equilibrio.
+
+Si de verdad son 4.55 nm (45.5 Å) →
+⚠️ Es demasiado grande: probablemente hay un error en la referencia (por ejemplo, no se hizo el fitting con -fit rot+trans en gmx rms) o se está midiendo sobre todo el sistema.
+
+Estos patrones son consistentes con la gran estabilidad de la crambina, cuya red de enlaces disulfuro contribuye a mantener su estructura.
 
 Conclusión
 
