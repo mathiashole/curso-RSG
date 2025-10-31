@@ -38,7 +38,7 @@ RGYR (Radio de Giro) mide el grado de compactación de la proteína, útil para 
 
 2. Resultados
 
-La raíz cuadrada media de la desviación estándar (RMSD) el valor promedio del RMSD luego de establecerce en equilibrio $(t \geq 5 ns)$ fue de $4.55 \pm 0.04 nm$, con un rango de variacion de $0.23 nm$. Inicialmente los primeros nanosegundos, el RMSD mostró un incremento pronunciado asociado al proceso de relajación de la estructura desde su conformación inicial de la proteina, hasta llegar al equlibrio en ese tiempo dado de  $20 ns$. Este aumento es el resultado de los ajustes que se dan en el sistema a las condiciones planteadas en la simulación (ej: solvente, temperatura, presión), luego la estructura alcanza un estado estable que oscila alrededor de el valor promedio.
+El valor promedio del RMSD luego de establecerce en equilibrio $(t \geq 5 ns)$ fue de $4.55 \pm 0.04 nm$, con un rango de variacion de $0.23 nm$. Inicialmente los primeros $ns$, RMSD mostró un incremento que se asocia al proceso de relajación de la estructura desde su conformación inicial, hasta llegar al equlibrio en el tiempo de  $20 ns$. Este aumento puede deberse a ajustes que se dan en el sistema a las condiciones de la simulación, luego la estructura alcanza un estado estable que oscila alrededor de el valor promedio.
 
 El radio de giro mostró un valor medio de $3.21 \pm 0.009 nm$, con oscilaciones con un rango de $3.18 - 3.23 nm$. La estabilidad de este descriptor a lo largo del tiempo corresponde a que no se produjeron grandes cambios en el radio de giro de la proteina, manteniendo la estabilidad de 1CRN, característica de la conformación nativa.
 
