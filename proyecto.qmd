@@ -1,0 +1,25 @@
+---
+abstractspacing: double
+appendix: false
+fontfamily: libertine
+monofont: inconsolata
+monofontoptions: scaled=.95
+fontsize: 12pt
+geometry: 
+  - top=0.5cm
+  - bottom=0.5cm
+  - left=1.5cm
+  - right=1.5cm
+urlcolor: darkblue
+highlight-style: arrow
+format: 
+    pdf:
+      toc: false
+---
+
+<div style="text-align: left;">
+**Mathias**
+</div>
+<div style="text-align: right;">
+26 Octubre, 2025
+</div>
