@@ -23,3 +23,6 @@ format:
 <div style="text-align: right;">
 26 Octubre, 2025
 </div>
+
+## Proyecto final de Herramientas computacionales para abordar problemas biológicos
+
