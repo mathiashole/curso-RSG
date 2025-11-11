@@ -26,3 +26,6 @@ format:
 
 ## Orígenes evolutivos de familias génicas en parásitos kinetoplástidos
 
+La evolucion está marcada por transiciones recurrentes entre formas de vida libres y parasitarias, cada una acompañada por transformaciones genómicas y fenotípicas. Los parásitos confoorman una gran parte de la biodiversidad eucariota, con su aparición se han generados cambios en la evolución y la ecología de prácticamente todos los demás organismos. Tradicionalmente, el parasitismo se asoció a una evolución reductiva —pérdida génica, simplificación metabólica y dependencia del hospedador—. Sin embargo, los estudios genómicos comparativos han revelado que las transiciones hacia el parasitismo también implican innovación génica, expansión de familias multigénicas y la emergencia de nuevas funciones adaptativas.
+
+Los parásitos del orden Kinetoplastida, como Trypanosoma cruzi, Trypanosoma brucei y Leishmania spp., presentan genomas caracterizados por una alta plasticidad estructural y por la expansión de múltiples familias génicas de superficie. Estas familias —como las DGF-1, trans-sialidasas, mucinas, GP63 o las VSG— cumplen roles centrales en la interacción parásito-hospedero, la evasión inmunológica y la adaptación a distintos ambientes intracelulares o extracelulares.
