@@ -24,5 +24,5 @@ format:
 26 Octubre, 2025
 </div>
 
-## Proyecto final de Herramientas computacionales para abordar problemas biológicos
+## Orígenes evolutivos de familias génicas en parásitos kinetoplástidos
 
