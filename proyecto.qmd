@@ -68,5 +68,4 @@ Posteriormente, los archivos serán organizados en un entorno de análisis local
 
 ### Identificación y clasificación de familias multigénicas
 
-Se realizará una búsqueda sistemática de las principales familias multigénicas de superficie en los Kinetoplástidos, incluyendo trans-sialidasas, mucinas, MASP, amastinas y GP63.
-Para ello, se emplearán enfoques basados en homología de secuencias mediante herramientas como BLASTp y HMMER, utilizando perfiles HMM construidos a partir de secuencias previamente caracterizadas. Las secuencias identificadas serán agrupadas en familias génicas con base en criterios de similitud y dominios conservados.
+Se realizará una búsqueda de las familias multigénicas anteriormente mencionadas. Se emplearán un metodo basados en homología de secuencias mediante la herramienta BLAST con sus aplicaciones. Las secuencias identificadas serán agrupadas en familias génicas con base en criterios de similitud.
