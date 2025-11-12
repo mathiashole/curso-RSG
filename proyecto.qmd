@@ -56,3 +56,7 @@ Para versionado del codigo se utilizara la herramienta git, ademas se creara un 
 
 Asimismo, se emplearon opciones para mejorar el alineamiento local y paralelizar la ejecución. Se utilizó MAFFT (v.7.505) con 1000 iteraciones y algoritmo local, seguido de recorte automático con trimAl con la opcion gapyout.
 
+### Obtención y preparación de datos genómicos
+
+Se recopilarán los genomas anotados de distintas especies de Kinetoplástidos y Euglenozoa, tanto parásitos como de vida libre, a partir de bases de datos públicas como TriTrypDB y Ensembl Protists. Adicionalmente, se incluirán genomas representativos de otros Euglenozoa no parasitarios con el fin de establecer comparaciones filogenéticas amplias.
+Los archivos genómicos serán organizados y procesados para estandarizar las anotaciones y formatos, asegurando la consistencia en los identificadores génicos, coordenadas cromosómicas y descripciones funcionales.
