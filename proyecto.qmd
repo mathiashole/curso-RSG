@@ -38,14 +38,14 @@ El origen evolutivo de estas familias genicas asociadas al estilo de vida parasi
 
 ### Objetivo general
 
-Investigar los diferentes orígenes y la historia evolutiva de familias multigénicas en Kinetoplástidos parásitos, comparando las diferentes familias multigénicas con especies de vida libre y otros organismos euglenozoos, para identificar patrones de expansión, conservación y especialización funcional asociados a el parasitismo.
+Investigar los diferentes orígenes y la historia evolutiva de familias multigénicas en Kinetoplástidos parásitos, comparando las diferentes familias multigénicas con especies de vida libre y otros organismos euglenozoos, con el fin de identificar patrones de expansión, conservación y especialización funcional asociados al parasitismo.
 
 ### Objetivos específicos
 
-Identificar familias génicas conservadas en cada especie, y las parcialmente compartidas entre especies parasitarias y de vida libre.
+Identificar las familias génicas conservadas en cada especie parasitaria y aquellas compartidas entre especies parásitas y de vida libre.
 
-Reconstruir las relaciones evolutivas y los patrones de duplicaciónes y pérdidas en familias génicas DGF-1, trans-sialidasas, mucinas, MASP, amastinas y GP63.
+Reconstruir las relaciones evolutivas y los patrones de duplicación y pérdida de las familias génicas DGF-1, trans-sialidasas, mucinas, MASP, amastinas y GP63.
 
-Analizar la organización genómica y la distribución cromosómica de dichas familias.
+Analizar la organización genómica y la distribución cromosómica de dichas familias en cada especie.
 
 Desarrollar un flujo de trabajo reproducible que integre herramientas de análisis genómico, filogenético y de caracterización funcional.
