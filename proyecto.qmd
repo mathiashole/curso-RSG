@@ -51,3 +51,5 @@ Analizar la organización genómica y la distribución cromosómica de dichas fa
 Desarrollar un flujo de trabajo reproducible que integre herramientas de análisis genómico, filogenético y de caracterización funcional.
 
 ## Metodologia
+
+Para versionado del codigo se utilizara la herramienta git, ademas se creara un repositorio publico en github para el acceso del codigo con el finde que sea abierto y reproducible el analisis.
