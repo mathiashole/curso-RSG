@@ -33,3 +33,19 @@ Los Kinetoplástidos son un grupo de eucariotas que constituyen un buen modelo p
 El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario en los Kinetoplástidos y su relación con los diferentes elementos génicos en especies ancestrales dentro de los Kinetoplástidos y los Euglenozoa continúa siendo un tema poco comprendido. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador. Para abordar esta interrogante se requiere un enfoque comparativo que integre información genómica, filogenética y funcional, abarcando tanto parásitos como organismos de vida libre.
 
 Los parásitos del orden Kinetoplastida, como Trypanosoma cruzi, Trypanosoma brucei y Leishmania spp., presentan genomas caracterizados por una alta plasticidad estructural y por la expansión de múltiples familias génicas de superficie. Estas familias —como las DGF-1, trans-sialidasas, mucinas, GP63 o las VSG— cumplen roles centrales en la interacción parásito-hospedero, la evasión inmunológica y la adaptación a distintos ambientes intracelulares o extracelulares.
+
+## Objetivos
+
+### Objetivo general
+
+Investigar los orígenes y la diversificación de familias multigénicas en Kinetoplástidos parásitos, comparando sus repertorios con especies de vida libre y otros euglenozoos, para identificar patrones de expansión, conservación y especialización funcional asociados a la evolución del parasitismo.
+
+### Objetivos específicos
+
+Identificar familias génicas conservadas, específicas y parcialmente compartidas entre especies parasitarias y de vida libre.
+
+Reconstruir las relaciones evolutivas y los patrones de duplicación/pérdida en familias seleccionadas (por ejemplo, DGF-1, trans-sialidasas, amastinas, gp63, mucinas).
+
+Analizar la organización genómica y la distribución cromosómica de dichas familias.
+
+Desarrollar un flujo de trabajo reproducible que integre herramientas de análisis genómico, filogenético y de caracterización funcional.
