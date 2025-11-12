@@ -66,7 +66,7 @@ Se aplicarán filtros en el buscador de Ensembl Protists para incluir únicament
 
 Posteriormente, los archivos serán organizados en un entorno de análisis local, verificando la consistencia de los identificadores génicos y el formato uniforme de anotaciones. Las anotaciones se estandarizarán mediante scripts propios en R y Python, garantizando la compatibilidad entre especies y el correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación).
 
-Identificación y clasificación de familias multigénicas
+### Identificación y clasificación de familias multigénicas
 
 Se realizará una búsqueda sistemática de las principales familias multigénicas de superficie en los Kinetoplástidos, incluyendo DGF-1, trans-sialidasas, mucinas, MASP, amastinas y GP63.
 Para ello, se emplearán enfoques basados en homología de secuencias mediante herramientas como BLASTp y HMMER, utilizando perfiles HMM construidos a partir de secuencias previamente caracterizadas. Las secuencias identificadas serán agrupadas en familias génicas con base en criterios de similitud y dominios conservados.
