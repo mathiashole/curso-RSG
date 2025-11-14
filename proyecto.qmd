@@ -80,7 +80,7 @@ Se realizará una búsqueda de las familias multigénicas anteriormente menciona
 
 Los alineamientos de cada familia se haran utilizando MAFFT, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución, seleccionando el mejor modelo que se ajuste. Se inferirán los patrones de duplicación y pérdida génica mediante superposicion en un árboles de especies. Permitiendo identificar eventos de expansión o contracción asociados a la transición hacia el parasitismo.
 
-## Caracterización genómica y distribución cromosómica
+### Caracterización genómica y distribución cromosómica
 
 Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas.
 
