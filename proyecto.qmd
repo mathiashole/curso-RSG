@@ -38,7 +38,7 @@ Los genomas de Trypanosoma brucei, Trypanosoma cruzi, Leishmania major y Pythomo
 
 El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema poco comprendido. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
 
-Para abordar esta interrogante se requiere un enfoque comparativo que integre información genómica, filogenética y funcional, abarcando tanto parásitos como organismos de vida libre.
+Para abordar esta problema se requiere un enfoque comparativo, en el cual se integre información genómica, filogenética y funcional, abarcando tanto parásitos como organismos de vida libre.
 
 ## Objetivos
 
