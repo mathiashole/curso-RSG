@@ -32,13 +32,13 @@ La historia de la vida está marcada por transiciones en diferentes momentos de 
 
 El parasitismo se asociaba a una evolución reductiva, es decir pérdida génica, simplificación metabólica y dependencia del hospedador. Sin embargo, el parasitismo no implican únicamente pérdida génica, sino también reorganización y expansión de ciertos genes. Al depender energéticamente del hospedador, los parásitos enfrentan menos restricciones en cuanto al contenido genomico, lo que posibilita la retención y diversificación de familias génicas asociadas a la interacción hospedador-parásito.
 
-Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo para estudiar estos procesos evolutivos. Es un buen modelo dado que incluye tanto organismos de vida libre (Bodo saltans, Neobodo designs) asi como parasitos de gran relevancia médica (Trypanosoma y Leishmania) y agrícola (Phytomonas). Esta diversidad en un unico grupo permite establecer comparaciones directas a nivel genómico y filogenético.
+Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo para estudiar estos procesos evolutivos, dado que incluye tanto organismos de vida libre (*Bodo saltans, Neobodo designs*) asi como parasitos de gran relevancia médica (*Trypanosoma y Leishmania*) y agrícola (*Phytomonas*). Esta diversidad en un unico grupo permite establecer comparaciones directas a nivel evolutivo.
 
-Los genomas de Trypanosoma brucei, Trypanosoma cruzi, Leishmania major y Pythomonas tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies.
+Los genomas de *Trypanosoma brucei*, *Trypanosoma cruzi*, *Leishmania major* y *Pythomonas* tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies.
 
 El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema poco comprendido. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
 
-Para abordar esta problema se requiere un enfoque comparativo, en el cual se integre información genómica, filogenética y funcional, abarcando tanto parásitos como organismos de vida libre.
+Para abordar esta pregunta se requiere un enfoque comparativo, en el cual se integre información genómica, filogenética y funcional, abarcando tanto parásitos como organismos de vida libre.
 
 ## Objetivos
 
@@ -87,3 +87,18 @@ Las posiciones genómicas de cada familia se analizarán para evaluar su organiz
 Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA de forma sencilla. Obteniendo para cada gen o familia un conjunto de caracteristicas genómicas.
 
 Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas.
+
+Análisis comparativo y aprendizaje automático
+
+Se integrarán las características genómicas, filogenéticas y estructurales de las familias multigénicas para realizar una clusterización basada en múltiples atributos.
+Los análisis se desarrollarán en Python, empleando la librería scikit-learn para aplicar métodos de reducción de dimensionalidad (PCA, t-SNE) y técnicas de agrupamiento (k-means, DBSCAN). Esto permitirá identificar agrupamientos naturales entre familias o especies y visualizar relaciones funcionales o evolutivas compartidas.
+
+Desarrollo de un flujo de trabajo reproducible
+
+Con el objetivo de asegurar la trazabilidad y reproducibilidad de los resultados, se implementará un pipeline automatizado en Nextflow, integrando todas las etapas del análisis (descarga de datos, filtrado, alineamiento, reconstrucción filogenética, cálculos genómicos y análisis multivariante).
+El código y los resultados intermedios serán versionados mediante Git y alojados en un repositorio GitHub público, siguiendo buenas prácticas de ciencia abierta y documentación transparente.
+
+Visualización e integración de resultados
+
+Los resultados se presentarán mediante representaciones gráficas y filogenéticas que integren la distribución evolutiva y genómica de las familias analizadas. Se espera obtener mapas filogenéticos que reflejen los patrones de expansión génica, la relación con regiones genómicas particulares y los posibles vínculos entre estructura y función.
+Finalmente, los datos integrados permitirán proponer hipótesis sobre el origen y diversificación de las familias multigénicas en los Kinetoplástidos, aportando un marco comparativo para comprender la evolución del parasitismo dentro del grupo.
