@@ -88,17 +88,16 @@ Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de d
 
 Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas.
 
-Análisis comparativo y aprendizaje automático
+### Aprendizaje automático
 
-Se integrarán las características genómicas, filogenéticas y estructurales de las familias multigénicas para realizar una clusterización basada en múltiples atributos.
-Los análisis se desarrollarán en Python, empleando la librería scikit-learn para aplicar métodos de reducción de dimensionalidad (PCA, t-SNE) y técnicas de agrupamiento (k-means, DBSCAN). Esto permitirá identificar agrupamientos naturales entre familias o especies y visualizar relaciones funcionales o evolutivas compartidas.
+Se integrarán características genómicas, filogenéticas y estructurales de las familias multigénicas para realizar una clusterización basada en esta informacion. Los análisis se haran en Python, haciendo uso de la librería scikit-learn para aplicar métodos de reducción de dimensionalidad (PCA, t-SNE) y técnicas de clustering (k-means, DBSCAN). Permitira identificar clusters entre familias que tengan caracteristicas similares en las diferentes especies o las que no compartan nunguna de las caracteristicas relevadas.
 
-Desarrollo de un flujo de trabajo reproducible
+### Desarrollo de un flujo de trabajo reproducible
 
 Con el objetivo de asegurar la trazabilidad y reproducibilidad de los resultados, se implementará un pipeline automatizado en Nextflow, integrando todas las etapas del análisis (descarga de datos, filtrado, alineamiento, reconstrucción filogenética, cálculos genómicos y análisis multivariante).
 El código y los resultados intermedios serán versionados mediante Git y alojados en un repositorio GitHub público, siguiendo buenas prácticas de ciencia abierta y documentación transparente.
 
-Visualización e integración de resultados
+### Visualización e integración de resultados
 
 Los resultados se presentarán mediante representaciones gráficas y filogenéticas que integren la distribución evolutiva y genómica de las familias analizadas. Se espera obtener mapas filogenéticos que reflejen los patrones de expansión génica, la relación con regiones genómicas particulares y los posibles vínculos entre estructura y función.
 Finalmente, los datos integrados permitirán proponer hipótesis sobre el origen y diversificación de las familias multigénicas en los Kinetoplástidos, aportando un marco comparativo para comprender la evolución del parasitismo dentro del grupo.
