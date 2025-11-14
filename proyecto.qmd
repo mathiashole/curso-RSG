@@ -44,7 +44,7 @@ Para abordar esta problema se requiere un enfoque comparativo, en el cual se int
 
 ### Objetivo general
 
-Investigar los diferentes orígenes y la historia evolutiva de familias multigénicas en Kinetoplástidos parásitos, comparando las diferentes familias multigénicas con especies de vida libre y otros organismos euglenozoos, con el fin de identificar patrones de expansión, conservación y especialización funcional asociados al parasitismo.
+Investigar los diferentes orígenes y la historia evolutiva de familias multigénicas en Kinetoplástidos parásitos, comparando las diferentes familias multigénicas con especies de vida libre, con el fin de identificar patrones de expansión, conservación y diversificacion asociados al parasitismo.
 
 ### Objetivos específicos
 
@@ -66,7 +66,7 @@ Asimismo, se emplearon opciones para mejorar el alineamiento local y paralelizar
 
 Los datos genómicos se obtendrán de la base de datos de Ensembl Protists (https://protists.ensembl.org/), seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) con el fin de abarcar la diversidad filogenética del grupo.
 
-Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie: Archivos FASTA con las secuencias de proteínas codificantes (CDS y proteínas predichas). Archivos GFF3 con las anotaciones genómicas y coordenadas cromosómicas. Archivos FASTA del genoma completo para análisis estructurales y de contenido de GC.
+Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie, archivos formato FASTA (CDS y proteínas), archivos en formato GFF3 con las anotaciones y coordenadas. Archivos FASTA del genoma completo.
 
 Se aplicarán filtros en el buscador de Ensembl Protists para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos o sin evidencia de transcripción.
 
@@ -74,16 +74,16 @@ Posteriormente, los archivos serán organizados en un entorno de análisis local
 
 ### Identificación y clasificación de familias multigénicas
 
-Se realizará una búsqueda de las familias multigénicas anteriormente mencionadas. Se emplearán un metodo basados en homología de secuencias mediante la herramienta BLAST con sus aplicaciones. Las secuencias identificadas serán agrupadas en familias génicas con base en criterios de similitud.
+Se realizará una búsqueda de las familias multigénicas anteriormente mencionadas. Basandonos en homología de secuencias mediante la herramienta BLAST con sus aplicaciones. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud.
 
 ### Análisis filogenético
 
-Los alineamientos de cada familia se haran utilizando MAFFT, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución seleccionando el mejor modelo que se ajusta a cada familia génica. Se inferirán los patrones de duplicación y pérdida génica mediante superposicion en un árboles de especies. Permitiendo identificar eventos de expansión o contracción asociados a la transición hacia el parasitismo.
+Los alineamientos de cada familia se haran utilizando MAFFT, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución, seleccionando el mejor modelo que se ajuste. Se inferirán los patrones de duplicación y pérdida génica mediante superposicion en un árboles de especies. Permitiendo identificar eventos de expansión o contracción asociados a la transición hacia el parasitismo.
 
 ## Caracterización genómica y distribución cromosómica
 
-Las posiciones genómicas de los genes de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones subteloméricas.
+Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas.
 
-Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA. Obteniendo para cada gen o familia un conjunto de descriptores genómicos.
+Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA de forma sencilla. Obteniendo para cada gen o familia un conjunto de caracteristicas genómicas.
 
-Estos resultados serán compilados en tablas comparativas que integrarán información de varias especies y familias génicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA), con el fin de explorar patrones globales de similitud entre familias y especies.
+Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas.
