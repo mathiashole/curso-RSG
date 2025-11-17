@@ -64,11 +64,11 @@ Desde el entorno online de Ensembl Protists se descargan los datos genomicos par
 
 Se aplicarán filtros en el buscador de Ensembl Protists para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos o sin evidencia de transcripción.
 
-Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verificara que toda anotacion y formatos se mantenga uniforme en las diferentes especies todo esto se hara a traves de comandos en bash y comandos de awk. Las anotaciones se estandarizarán mediante scripts propios en R y Python, garantizando la compatibilidad entre especies y el correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación). Sobre todo normalizar las etiquetas de anotacion que por lo general difieren en cambios minimos pudiendo generar errores de analisis posteriores.
+Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verificara que toda anotacion y formatos se mantenga uniforme en las diferentes especies todo esto se hara a traves de comandos de bash y comandos de awk. Las anotaciones se estandarizarán mediante scripts propios en R y Python, garantizando la compatibilidad entre especies y el correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación). Sobre todo normalizar las etiquetas de anotacion que por lo general difieren en cambios minimos pudiendo generar errores de analisis posteriores.
 
 ### Identificación y clasificación de familias multigénicas
 
-Se realizará una búsqueda de las familias multigénicas anteriormente mencionadas. Basandonos en homología de secuencias mediante la herramienta BLAST con sus aplicaciones. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud.
+Dada que las anotaciones entre especie varian ya que son anotados en base a diferentes programas reanotaremos estas familias multigenicas a partir de un set de secuencias curadas de forma manual. Se realizará una búsqueda basandonos en homología de secuencias mediante la herramienta BLAST con sus aplicaciones. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud y se constuiran perfiles de hmm a partir de los alineamientos para labusqueda de homologos remotos en especes ancestrales.
 
 ### Análisis filogenético
 
