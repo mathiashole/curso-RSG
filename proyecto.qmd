@@ -58,13 +58,13 @@ Analizar la organización genómica y la distribución cromosómica de dichas fa
 
 ### Obtención y preparación de datos genómicos
 
-Los datos genómicos se obtendrán de la base de datos de Ensembl Protists (https://protists.ensembl.org/), seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) con el fin de abarcar la diversidad filogenética del grupo.
+Los datos genómicos se obtendrán de la base de datos de Ensembl Protists (https://protists.ensembl.org/), seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) con el fin de abarcar la diversidad filogenética del grupo y de organismos ancestrales.
 
-Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie, archivos formato FASTA (CDS y proteínas), archivos en formato GFF3 con las anotaciones y coordenadas. Archivos FASTA del genoma completo.
+Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie, archivos formato FASTA (CDS y proteínas), archivos en formato GFF3 con las anotaciones y coordenadas. Ademas,archivos en formato FASTA del genoma completo.
 
 Se aplicarán filtros en el buscador de Ensembl Protists para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos o sin evidencia de transcripción.
 
-Posteriormente, los archivos serán organizados en un entorno de análisis local, verificando la consistencia de los identificadores génicos y el formato uniforme de anotaciones. Las anotaciones se estandarizarán mediante scripts propios en R y Python, garantizando la compatibilidad entre especies y el correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación).
+Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verificara que toda anotacion y formatos se mantenga uniforme en las diferentes especies todo esto se hara a traves de comandos en bash y comandos de awk. Las anotaciones se estandarizarán mediante scripts propios en R y Python, garantizando la compatibilidad entre especies y el correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación). Sobre todo normalizar las etiquetas de anotacion que por lo general difieren en cambios minimos pudiendo generar errores de analisis posteriores.
 
 ### Identificación y clasificación de familias multigénicas
 
