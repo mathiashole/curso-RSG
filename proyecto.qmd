@@ -54,8 +54,6 @@ Reconstruir las relaciones evolutivas y los patrones de duplicación y pérdida 
 
 Analizar la organización genómica y la distribución cromosómica de dichas familias en cada especie.
 
-Los alineamientos se hcieron con la herramienta mafft v.XXXXX.XXXXX, con 1000 iteraciones para un mejor alineamiento local. Asimismo, Desarrollar un flujo de trabajo reproducible que integre herramientas de análisis genómico, filogenético y de caracterización funcional.
-
 ## Metodologia
 
 ### Obtención y preparación de datos genómicos
