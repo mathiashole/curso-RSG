@@ -54,13 +54,9 @@ Reconstruir las relaciones evolutivas y los patrones de duplicación y pérdida 
 
 Analizar la organización genómica y la distribución cromosómica de dichas familias en cada especie.
 
-Desarrollar un flujo de trabajo reproducible que integre herramientas de análisis genómico, filogenético y de caracterización funcional.
+Los alineamientos se hcieron con la herramienta mafft v.XXXXX.XXXXX, con 1000 iteraciones para un mejor alineamiento local. Asimismo, Desarrollar un flujo de trabajo reproducible que integre herramientas de análisis genómico, filogenético y de caracterización funcional.
 
 ## Metodologia
-
-Para versionado del codigo se utilizara la herramienta git, ademas se creara un repositorio publico en github para el acceso del codigo con el finde que sea abierto y reproducible el analisis. Asimismo, utilizaremos el gestor de pipline Nextflow el cual permitira hacer que nuestro pipeline sea automatizado y reproducible, dado que tiene funciones para la automatizacion de diferentes programas y script, asimismo un contro de loos difernetes argumentos que se les pase. En este contexto, tendremos un versionado del codigo totalmente fluido y abierto grtacias a las herramientas de git y github. Por otro lado, tambien podremos hacer diferentes ejecuciones de el mismo poipline con diferentes opciones y argumentos determinando: cuales son los parametros que nos mejoran la calidad y cantidad de loos resultados.
-
-Asimismo, se emplearon opciones para mejorar el alineamiento local y paralelizar la ejecución. Se utilizó MAFFT (v.7.505) con 1000 iteraciones y algoritmo local, seguido de recorte automático con trimAl con la opcion gapyout.
 
 ### Obtención y preparación de datos genómicos
 
