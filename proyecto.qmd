@@ -76,11 +76,11 @@ Los alineamientos de cada familia se haran utilizando MAFFT, seguidos de la cons
 
 ### Caracterización genómica y distribución cromosómica
 
-Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas.
-
 Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA de forma sencilla. Obteniendo para cada gen o familia un conjunto de caracteristicas genómicas.
 
-Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas.
+Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas.
+
+Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas en cada una de las familias.
 
 ### Aprendizaje automático
 
