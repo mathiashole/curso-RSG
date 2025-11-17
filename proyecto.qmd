@@ -36,7 +36,7 @@ Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo p
 
 Los genomas de *Trypanosoma brucei*, *Trypanosoma cruzi*, *Leishmania major* y *Pythomonas* tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies.
 
-El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema poco comprendido. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
+El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema en discusion. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
 
 Para abordar esta pregunta se requiere un enfoque comparativo, en el cual se integre información genómica, filogenética y funcional, abarcando tanto parásitos como organismos de vida libre.
 
