@@ -68,7 +68,7 @@ Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verifi
 
 ### Identificación y clasificación de familias multigénicas
 
-Dada que las anotaciones entre especie varian ya que son anotados en base a diferentes programas reanotaremos estas familias multigenicas a partir de un set de secuencias curadas de forma manual. Se realizará una búsqueda basandonos en homología de secuencias mediante la herramienta BLAST con sus aplicaciones. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud y se constuiran perfiles de hmm a partir de los alineamientos para labusqueda de homologos remotos en especes ancestrales.
+Dada que las anotaciones entre especie varian ya que son anotados en base a diferentes programas, reanotaremos estas familias multigenicas a partir de un set de secuencias curadas de forma manual. Se realizará una búsqueda basandonos en homología de secuencias mediante la herramienta BLAST con sus aplicaciones y getorf. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud y se constuiran perfiles de hmm a partir de los alineamientos para la busqueda de homologos remotos en especies ancestrales.
 
 ### Análisis filogenético
 
