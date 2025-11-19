@@ -50,7 +50,7 @@ Investigar los diferentes orígenes y la historia evolutiva de familias multigé
 
 Identificar las familias génicas conservadas en cada especie parasitaria y aquellas compartidas entre especies parásitas y de vida libre.
 
-Reconstruir las relaciones evolutivas y los patrones de duplicación y pérdida de las familias génicas trans-sialidasas, mucinas, MASP, amastinas y GP63.
+Reconstruir las relaciones evolutivas, los patrones de duplicación y pérdida de las familias génicas como las trans-sialidasas, mucinas, MASP, amastinas y GP63.
 
 Analizar la organización genómica y la distribución cromosómica de dichas familias en cada especie.
 
