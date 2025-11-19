@@ -76,7 +76,9 @@ Los alineamientos de cada familia se haran utilizando MAFFT, seguidos de la cons
 
 ### Caracterización genómica y distribución cromosómica
 
-Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA de forma sencilla. Obteniendo para cada gen o familia un conjunto de caracteristicas genómicas.
+Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA de forma sencilla. Obteniendo para cada gen un conjunto de caracteristicas genómicas.
+
+Asimismo, se hara la frecuencias de aminoacidos y su clasificacion en los diferentes grupos obteniendo que contenido de aminoacidos enriquece a la familia genica haciendo uso del paquete seqinR junto con otros paquetes para manejo de datos.
 
 Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas.
 
