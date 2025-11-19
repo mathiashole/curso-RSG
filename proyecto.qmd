@@ -105,7 +105,8 @@ Se integrarán características genómicas, filogenéticas y estructurales de la
 
 ### Desarrollo de un flujo de trabajo reproducible
 
-Con el objetivo de asegurar la trazabilidad y reproducibilidad de los resultados, se implementará un pipeline automatizado en Nextflow, integrando todas las etapas del análisis (descarga de datos, filtrado, alineamiento, reconstrucción filogenética, cálculos genómicos y análisis multivariante).
+Con el objetivo de asegurar el versionado y reproducibilidad de los resultados, se implementará un pipeline automatizado en Nextflow, integrando todas las etapas del análisis (descarga de datos, filtrado, alineamiento, reconstrucción filogenética, cálculos genómicos y análisis multivariante). 
+
 El código y los resultados intermedios serán versionados mediante Git y alojados en un repositorio GitHub público, siguiendo buenas prácticas de ciencia abierta y documentación transparente.
 
 ### Visualización e integración de resultados
