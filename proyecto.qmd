@@ -12,6 +12,11 @@ geometry:
   - right=1.5cm
 urlcolor: darkblue
 highlight-style: arrow
+csl: /home/mathias/Descargas/apa.csl
+bibliography: /home/mathias/Descargas/Kinetoplastidos.bib
+reference-section-title: "Referencias"
+lang: es
+
 format: 
     pdf:
       toc: false
