@@ -83,7 +83,7 @@ Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verifi
 
 Dada que las anotaciones entre los diferentes genomas y especies varian, ya que son anotados en base a diferentes programas, reanotaremos estas familias multigenicas a partir de un set de secuencias curadas de forma manual. Se realizará una búsqueda basandonos en homología de secuencias mediante las herramientas BLAST con sus aplicaciones y getorf. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud.
 
-Para la busqueda de homolos remotos en especies ancestrales se constuiran perfiles de hmm a partir de los alineamientos de proteinas. De esta manera identificaremos genes con homologia remota en los ancestros Kinetoplástidos.
+Para la busqueda de homologos remotos en especies ancestrales se constuiran perfiles de hmm a partir de los alineamientos de proteinas. De esta manera identificaremos genes con homologia remota en los ancestros Kinetoplástidos.
 
 ### Análisis filogenético
 
