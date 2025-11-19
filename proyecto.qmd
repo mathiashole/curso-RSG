@@ -45,7 +45,7 @@ La historia de la vida está marcada por transiciones en diferentes momentos de 
 
 El parasitismo anteriormente se asociaba a una evolución reductiva, es decir pérdida génica, simplificación metabólica y dependencia del hospedador. Sin embargo, el parasitismo no implican únicamente pérdida de genes, sino también reorganización y expansión de ciertos genes. Al depender energéticamente del hospedador, los parásitos pueden enfrentar menos restricciones en cuanto al contenido genomico, lo que posibilita la retención y diversificación de familias génicas asociadas a la interacción hospedador-parásito.
 
-Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo para estudiar estos procesos evolutivos, dado que incluye tanto organismos de vida libre (*Bodo saltans, Neobodo designs*) asi como parasitos de gran relevancia médica (*Trypanosoma y Leishmania*) y agrícola (*Phytomonas*). Esta diversidad en un unico grupo permite establecer comparaciones directas a nivel evolutivo sobre ganancia y perdidas de genes.
+Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo para estudiar estos procesos evolutivos, dado que incluye tanto organismos de vida libre (*Bodo saltans, Neobodo designis) asi como parasitos de gran relevancia médica (*Trypanosoma y Leishmania*) y agrícola (*Phytomonas*). Esta diversidad en un unico grupo permite establecer comparaciones directas a nivel evolutivo sobre ganancia y perdidas de genes.
 
 Los genomas de *Trypanosoma brucei*, *Trypanosoma cruzi*, *Leishmania major* y *Pythomonas* tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies.
 
@@ -77,7 +77,7 @@ Desde el entorno online de Ensembl Protists se descargan los datos genomicos par
 
 Se aplicarán filtros en el buscador de Ensembl Protists para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos o sin evidencia de transcripción.
 
-Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verificara que toda anotacion y formatos se mantenga uniforme en las diferentes especies todo esto se hara a traves de comandos de bash y comandos de awk. Las anotaciones se estandarizarán mediante scripts propios en R y Python, garantizando la compatibilidad entre especies y el correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación). Sobre todo normalizar las etiquetas de anotacion que por lo general difieren en cambios minimos pudiendo generar errores de analisis posteriores.
+Posteriormente, los datos se analizaran en un entorno local. Asimismo, se verificara que toda anotacion y formatos esten normalizados en las diferentes especies todo esto se hara a traves de comandos de bash y comandos de awk. Las anotaciones estandarizadas garantizara un correcto enlace entre las secuencias y sus metadatos (posición genómica, longitud, producto génico y tipo de anotación).
 
 ### Identificación y clasificación de familias multigénicas
 
