@@ -41,7 +41,7 @@ format:
 
 ## Introduccion
 
-La historia de la vida está marcada por transiciones en diferentes momentos de la evolucion entre formas de vida libres y parasitarias, cada transicion es acompañada por profundas transformaciones genómicas y fenotípicas. Los parásitos representan una porción significativa de la biodiversidad eucariota, con su aparición se han generado cambios en la evolución y la ecología de prácticamente todos los demás organismos.
+La historia de la vida está marcada por transiciones en diferentes momentos de la evolucion entre formas de vida libres y parasitarias, cada transicion es acompañada por profundas transformaciones genómicas y fenotípicas @jacksonKinetoplastidPhylogenomicsReveals2016. Los parásitos representan una porción significativa de la biodiversidad eucariota, con su aparición se han generado cambios en la evolución y la ecología de prácticamente todos los demás organismos.
 
 El parasitismo anteriormente se asociaba a una evolución reductiva, es decir pérdida génica, simplificación metabólica y dependencia del hospedador. Sin embargo, el parasitismo no implican únicamente pérdida de genes, sino también reorganización y expansión de ciertos genes. Al depender energéticamente del hospedador, los parásitos pueden enfrentar menos restricciones en cuanto al contenido genomico, lo que posibilita la retención y diversificación de familias génicas asociadas a la interacción hospedador-parásito.
 
