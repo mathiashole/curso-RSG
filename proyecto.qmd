@@ -43,7 +43,7 @@ format:
 
 La historia de la vida está marcada por transiciones en diferentes momentos de la evolucion entre formas de vida libres y parasitarias, cada transicion es acompañada por profundas transformaciones genómicas y fenotípicas [@jacksonKinetoplastidPhylogenomicsReveals2016]. Los parásitos representan una porción significativa de la biodiversidad eucariota, con su aparición se han generado cambios en la evolución y la ecología de prácticamente todos los demás organismos.
 
-El parasitismo anteriormente se asociaba a una evolución reductiva, es decir pérdida génica, simplificación metabólica y dependencia del hospedador. Sin embargo, el parasitismo no implican únicamente pérdida de genes, sino también reorganización y expansión de ciertos genes. Al depender energéticamente del hospedador, los parásitos pueden enfrentar menos restricciones en cuanto al contenido genomico, lo que posibilita la retención y diversificación de familias génicas asociadas a la interacción hospedador-parásito.
+El parasitismo no implican únicamente pérdida de genes, sino también reorganización y expansión de ciertos genes. Al depender energéticamente del hospedador, los parásitos pueden enfrentar menos restricciones en cuanto al contenido genomico, lo que posibilita la retención y diversificación de familias génicas asociadas a la interacción hospedador-parásito.
 
 Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo para estudiar estos procesos evolutivos, dado que incluye tanto organismos de vida libre (*Bodo saltans, Neobodo designis*) asi como parasitos de gran relevancia médica (*Trypanosoma y Leishmania*) y agrícola (*Phytomonas*). Esta diversidad en un unico grupo permite establecer comparaciones directas a nivel evolutivo sobre ganancia y perdidas de genes.
 
@@ -69,23 +69,23 @@ Analizar la organización genómica y la distribución cromosómica de dichas fa
 
 ### Obtención y preparación de datos genómicos
 
-Los datos genómicos se obtendrán de la base de datos de Ensembl Protists **https://protists.ensembl.org/**, seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) con el fin de abarcar la diversidad filogenética del grupo y de organismos ancestrales.
+Los datos genómicos se obtendrán de la base de datos de Ensembl Protists **https://protists.ensembl.org/**, seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) abracando organismos ancestrales.
 
-Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie, archivos formato FASTA, archivos en formato GFF3 con las anotaciones y coordenadas. Ademas,archivos en formato FASTA del genoma completo.
+Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie, archivos formato FASTA, archivos en formato GFF3 con las anotaciones y coordenadas. Filtrando en el mismo entorno para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos.
 
-Se aplicarán filtros en el buscador de Ensembl Protists para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos o sin evidencia de transcripción.
-
-Posteriormente, los datos se analizaran en un entorno local. Verificando que toda anotacion y formatos esten normalizados en los diferentes genomas, esto se realizara a traves de comandos de bash y comandos de awk. Las anotaciones estandarizadas garantizaran un correcto enlace entre las secuencias y sus metadatos (identificador, posición genómica, longitud, producto génico y tipo de anotación).
+Posteriormente, los datos se analizaran en un entorno local. Verificando que toda anotacion y formatos esten normalizados en los diferentes genomas, a partir de comandos de bash y comandos de awk. Las anotaciones estandarizadas garantizaran un correcto enlace entre las secuencias y sus metadatos (identificador, posición genómica, longitud, producto génico y tipo de anotación).
 
 ### Identificación y clasificación de familias multigénicas
 
-Dada que las anotaciones entre los diferentes genomas y especies varian, ya que son anotados en base a diferentes programas, reanotaremos estas familias multigenicas a partir de un set de secuencias curadas de forma manual. Se realizará una búsqueda basandonos en homología de secuencias mediante las herramientas BLAST con sus aplicaciones y getorf. Las secuencias identificadas serán agrupadas en familias génicas en base a criterios de similitud.
+Las anotaciones entre los diferentes genomas varian, ya que son anotados en base a diferentes programas, reanotaremos estas familias multigenicas a partir de un set de secuencias curadas de forma manual. Luego, se realizará una búsqueda basada en homología mediante las herramientas BLAST con sus aplicaciones y getorf. Los genes/proteinas serán agrupadas en familias génicas en base a criterios de similitud.
 
-Para la busqueda de homologos remotos en especies ancestrales se constuiran perfiles de hmm a partir de los alineamientos de proteinas. De esta manera identificaremos genes con homologia remota en los ancestros Kinetoplástidos.
+Para la busqueda de homologos remotos en especies ancestrales se constuiran perfiles de hmm a partir de los alineamientos de proteinas reanotadas. De esta manera identificaremos genes con homologia remota en los ancestros de Kinetoplástidos.
 
 ### Análisis filogenético
 
-Los alineamientos de cada familia se haran utilizando MAFFT v.xx.xx.xx, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución, seleccionando el mejor modelo que se ajuste. Se inferirán los patrones de duplicación y pérdida génica mediante superposicion en un árboles de especies. Permitiendo identificar eventos de expansión o contracción asociados a la transición hacia el parasitismo.
+Los alineamientos de cada familia se haran utilizando mafft, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución, seleccionando el mejor modelo que se ajuste. El arbol de eespecies se reconstruira a partir de uno hecho anteriormente en otro trabajo.
+
+Se inferirán los patrones de duplicación y pérdida génica mediante superposicion en un árboles de especies. Permitiendo identificar eventos de expansión o contracción asociados a la transición hacia el parasitismo.
 
 ### Caracterización genómica y distribución cromosómica
 
