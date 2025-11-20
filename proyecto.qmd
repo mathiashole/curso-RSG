@@ -89,9 +89,11 @@ Se inferirán los patrones de duplicación y pérdida génica mediante superposi
 
 ### Caracterización genómica y distribución cromosómica
 
-Para los cálculos de longitud de secuencias, contenido de GC y frecuencias de dinucleótidos y trinucleótidos se realizarán en R utilizando el paquete seqinR. Este paquete permite manipular y analizar secuencias en formato FASTA de forma sencilla. Obteniendo para cada gen un conjunto de caracteristicas genómicas.
+Para la caracterización inicial, se utilizará el paquete seqinR de R. Este paquete facilita la manipulación y el análisis de secuencias. Se calcularán para cada gen la longitud de secuencia, contenido de GC (% de guanina y citosina), frecuencias de dinucleótidos y trinucleótidos.
 
-Asimismo, se hara la frecuencias de aminoacidos y su clasificacion en los diferentes grupos obteniendo que grupos de aminoacidos enriquecen a la familia genica haciendo uso del paquete seqinR junto con otros paquetes para manejo de datos.
+Adicionalmente, se analizarán las secuencias proteicas para determinar la frecuencia de aminoácidos y su clasificación en diferentes grupos fisicoquímicos. Permitiendo identificar qué grupos de aminoácidos están enriquecidos en la familia génica.
+
+Se analizarán las posiciones genómicas de cada familia para evaluar su organización y distribución a lo largo de los cromosomas. Se centrará en el entorno genómico y la localización en regiones subteloméricas y centroméricas. Siendo clasificados en función de la región cromosómica que ocupan.
 
 Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas. Pudiendolos clasificar en base a la region que ocupa.
 
