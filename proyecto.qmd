@@ -95,8 +95,6 @@ Adicionalmente, se analizarán las secuencias proteicas para determinar la frecu
 
 Se analizarán las posiciones genómicas de cada familia para evaluar su organización y distribución a lo largo de los cromosomas. Se centrará en el entorno genómico y la localización en regiones subteloméricas y centroméricas. Siendo clasificados en función de la región cromosómica que ocupan.
 
-Las posiciones genómicas de cada familia se analizarán para evaluar su organización y distribución cromosómica, haciendo énfasis en la posible asociación de el entorno genomico, regiones subteloméricas y regiones centroméricas. Pudiendolos clasificar en base a la region que ocupa.
-
 Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas en cada una de las familias.
 
 ### Aprendizaje automático
