@@ -103,9 +103,13 @@ En el caso que se encuentren patrones consistentes, se realizara análisis de cl
 
 ### Reconstrucción de duplicaciones y pérdidas de genes
 
-Para inferir la historia de duplicación y pérdida de cada familia génica utilizaremos GeneRax, que implementa un modelo de probabilidad DTL (duplication,transfer,loss). Aunque GeneRax usa probabilidades, el fundamento matemático del modelo es un proceso de nacimiento-muerte (birth-death), este describe cómo cambia el número de copias génicas a lo largo del tiempo en la filogenia. Siendo la ecuación diferencial nacimiento-muerte:
+Para reconstruir la historia de duplicación y pérdida de cada familia génica utilizaremos GeneRax, un software que implementa un modelo de probabilidad DTL (duplication,transfer,loss) y se basan en un proceso estocástico de nacimiento-muerte (birth-death). Aunque GeneRax utiliza probabilidades de eventos evolutivos, el fundamento del modelo es se puede expresar mediante una ecuacion diferencial simple:
 
 $\frac{dN}{dt} = \lambda N - \mu N$
+
+donde $N(t)$ es el número esperado de copias génicas en el tiempo, $\lambda$ es la tasa de duplicación y $\mu$ la tasa de pérdida. Mostrando cómo el tamaño de una familia génica cambia a lo largo del tiempo entre duplicaciones (nacimiento) y pérdidas (muerte).
+
+En este sentido, GeneRax extiende esta formulación a un marco probabilístico del proceso nacimiento–muerte, modelando la probabilidad de observar k copias. Esta formulación les permite inferir eventos discretos de duplicación y pérdida sobre las ramas del árbol de especies, integrando simultáneamente la verosimilitud del alineamiento y de la reconciliación.
 
 ### Desarrollo de un pipeline de trabajo reproducible
 
