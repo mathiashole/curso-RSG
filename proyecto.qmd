@@ -97,9 +97,9 @@ Se analizarán las posiciones genómicas de cada familia para evaluar su organiz
 
 ### Aprendizaje automático
 
-Estos resultados serán almacenados en tablas de varias especies, familias génicas y caracteristicas. Posteriormente, los resultados obtenidos se exploraran con análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python. En busca de algun patron que diferencie los datos de organismos parasitos de los de vida libre, o algun otro patron global interesante.
+Estos resultados serán almacenados en tablas con las familias génicas y caracteristicas. Posteriormente, los resultados obtenidos se aplicara reducción de dimensionalidad (PCA, t-SNE, UMAP) haciendo uso de la herramienta scikit-learn de python. Con el objetivo de explorar los datos y encontrar posibles patrones que distingan los organismos parasitos de los de vida libre u otro patron global de caracter evolutivo o biologico.
 
-Se integrarán características genómicas, filogenéticas y estructurales de las familias multigénicas para realizar una clusterización basada en esta informacion, de esta maner ver si es posible . Los análisis se haran en Python, haciendo uso de la librería scikit-learn para aplicar métodos de reducción de dimensionalidad (PCA, t-SNE) y técnicas de clustering (k-means, DBSCAN). Permitira identificar clusters entre familias que tengan caracteristicas similares en las diferentes especies o las que no compartan nunguna de las caracteristicas relevadas.
+En el caso que se encuentren patrones consistentes, se realizara análisis de clustering sobre estos espacios latentes. Para esto se evaluaran distintos algoritmos, incluyendo k-means, DBSCAN, Agglomerative Clustering y Spectral Clustering, con el objetivo de detectar grupos de familias con caracteristicas compartidas. Se utilizara el paquete de scikit-learn de Python, dado que facilita el uso de todas estas herramientas de forma sencilla.
 
 ### Reconstrucción de duplicaciones y pérdidas de genes
 
