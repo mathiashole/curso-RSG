@@ -101,7 +101,7 @@ Estos resultados serán guardados en tablas que integrarán información de vari
 
 Se integrarán características genómicas, filogenéticas y estructurales de las familias multigénicas para realizar una clusterización basada en esta informacion, de esta maner ver si es posible . Los análisis se haran en Python, haciendo uso de la librería scikit-learn para aplicar métodos de reducción de dimensionalidad (PCA, t-SNE) y técnicas de clustering (k-means, DBSCAN). Permitira identificar clusters entre familias que tengan caracteristicas similares en las diferentes especies o las que no compartan nunguna de las caracteristicas relevadas.
 
-### Desarrollo de un flujo de trabajo reproducible
+### Desarrollo de un pipeline de trabajo reproducible
 
 Con el objetivo de asegurar el versionado y reproducibilidad de los resultados, se implementará un pipeline automatizado en Nextflow, integrando todas las etapas del análisis (descarga de datos, filtrado, alineamiento, reconstrucción filogenética, cálculos genómicos y análisis multivariante). 
 
