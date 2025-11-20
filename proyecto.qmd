@@ -69,9 +69,9 @@ Analizar la organización genómica y la distribución cromosómica de dichas fa
 
 ### Obtención y preparación de datos genómicos
 
-Los datos genómicos se obtendrán de la base de datos de Ensembl Protists **https://protists.ensembl.org/**, seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) abracando organismos ancestrales.
+Los datos genómicos se obtendrán de la base de datos **https://protists.ensembl.org/**, seleccionando a las especies de Kinetoplástidos parásitos (*Trypanosoma cruzi, T. brucei, Leishmania major*) y de vida libre (como *Bodo saltans y Neobodo designis*), ademas se integraran genomas de Euglenozoa (*Euglena gracilis, Diplonema papillatum, Perkinsela spp. y Naegleria gruberi*) abracando organismos ancestrales.
 
-Desde el entorno online de Ensembl Protists se descargan los datos genomicos para cada especie, archivos formato FASTA, archivos en formato GFF3 con las anotaciones y coordenadas. Filtrando en el mismo entorno para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos.
+Se descargan los datos genomicos para cada especie, archivos formato FASTA, archivos en formato GFF con las anotaciones y coordenadas. Filtrando en el mismo entorno para incluir únicamente genes anotados como "protein_coding" y excluir elementos hipotéticos.
 
 Posteriormente, los datos se analizaran en un entorno local. Verificando que toda anotacion y formatos esten normalizados en los diferentes genomas, a partir de comandos de bash y comandos de awk. Las anotaciones estandarizadas garantizaran un correcto enlace entre las secuencias y sus metadatos (identificador, posición genómica, longitud, producto génico y tipo de anotación).
 
