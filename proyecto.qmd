@@ -95,7 +95,7 @@ Adicionalmente, se analizarán las secuencias proteicas para determinar la frecu
 
 Se analizarán las posiciones genómicas de cada familia para evaluar su organización y distribución a lo largo de los cromosomas. Se centrará en el entorno genómico y la localización en regiones subteloméricas y centroméricas. Siendo clasificados en función de la región cromosómica que ocupan.
 
-Estos resultados serán guardados en tablas que integrarán información de varias especies, familias génicas y caracteristicas. Posteriormente, los valores obtenidos se someterán a análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python, explorando patrones globales de estas caracteristicas en cada una de las familias.
+Estos resultados serán guardados en tablas integrales de varias especies, familias génicas y caracteristicas. Posteriormente, los resultados obtenidos se exploraran con análisis multivariantes, como el Análisis de Componentes Principales (PCA) haciendo uso de la herramienta scikit-learn de python. En busca de algun patron que diferencie los datos de organismos parasitos de los de vida libre, o algun otro patron global interesante.
 
 ### Aprendizaje automático
 
