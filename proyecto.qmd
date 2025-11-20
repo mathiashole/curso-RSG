@@ -106,8 +106,3 @@ Se integrarán características genómicas, filogenéticas y estructurales de la
 Con el objetivo de asegurar el versionado y reproducibilidad de los resultados, se implementará un pipeline automatizado en Nextflow, integrando todas las etapas del análisis (descarga de datos, filtrado, alineamiento, reconstrucción filogenética, cálculos genómicos y análisis multivariante). 
 
 El código y los resultados intermedios serán versionados mediante Git y alojados en un repositorio GitHub público, siguiendo buenas prácticas de reproducibilidad y documentación clara.
-
-### Visualización e integración de resultados
-
-Los resultados se presentarán mediante representaciones gráficas y filogenéticas que integren la distribución evolutiva y genómica de las familias analizadas. Se espera obtener mapas filogenéticos que reflejen los patrones de expansión génica, la relación con regiones genómicas particulares y los posibles vínculos entre estructura y función.
-Finalmente, los datos integrados permitirán proponer hipótesis sobre el origen y diversificación de las familias multigénicas en los Kinetoplástidos, aportando un marco comparativo para comprender la evolución del parasitismo dentro del grupo.
