@@ -49,7 +49,7 @@ Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo p
 
 Los genomas de *Trypanosoma brucei*, *Trypanosoma cruzi*, *Leishmania major* y *Pythomonas* tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies [@yurchenkoGenomicsTrypanosomatidaeWhere2021].
 
-El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema en discusion. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
+El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema en discusion.Para entender los procesos evolutivos es determinante saber si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
 
 ## Objetivos
 
@@ -107,7 +107,7 @@ $\frac{dN}{dt} = \lambda N - \mu N$
 
 donde $N(t)$ es el número esperado de copias génicas en el tiempo, $\lambda$ es la tasa de duplicación y $\mu$ la tasa de pérdida. Mostrando cómo el tamaño de una familia génica cambia a lo largo del tiempo entre duplicaciones (nacimiento) y pérdidas (muerte).
 
-En este sentido, GeneRax extiende esta formulación a un marco probabilístico del proceso nacimiento-muerte, modelando la probabilidad de observar k copias. Esta formulación les permite inferir eventos discretos de duplicación y pérdida sobre las ramas del árbol de especies, integrando simultáneamente la verosimilitud del alineamiento y de la reconciliación.
+GeneRax extiende esta formulación a un marco probabilístico, modelando el valor esperado y la probabilidad de observar exactamente $k$ copias mediante la ecuación del proceso nacimiento–muerte. Esta permite inferir, para cada rama del árbol de especies, los eventos discretos de duplicación y pérdida, integrando simultáneamente la verosimilitud del alineamiento y de la reconciliación. Permitiendo asi, obtener la reconstrucción reconciliada de cada familia, estimar número, posición de las duplicaciones, pérdidas, y comparar su dinámica evolutiva entre familias y entre especies.
 
 ### Desarrollo de un pipeline de trabajo reproducible
 
