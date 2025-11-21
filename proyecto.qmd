@@ -81,7 +81,7 @@ Para la busqueda de homologos remotos en especies ancestrales se constuiran perf
 
 ### Análisis filogenético
 
-Los alineamientos de cada familia se haran utilizando mafft, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución, seleccionando el mejor modelo que se ajuste. El arbol de eespecies se reconstruira a partir de uno hecho anteriormente en otro trabajo.
+Los alineamientos de cada familia se haran utilizando mafft, seguidos de la construcción filogenética mediante IQ-TREE con modelos de sustitución, seleccionando el mejor modelo que se ajuste [@nguyenIQTREEFastEffective2015;@katohMAFFTOnlineService2019]. El arbol de eespecies se reconstruira a partir de uno hecho anteriormente en otro trabajo.
 
 Se inferirán los patrones de duplicación y pérdida génica mediante superposicion en un árboles de especies. Permitiendo identificar eventos de expansión o contracción asociados a la transición hacia el parasitismo.
 
@@ -101,7 +101,7 @@ En el caso que se encuentren patrones consistentes, se realizara análisis de cl
 
 ### Reconstrucción de duplicaciones y pérdidas de genes
 
-Para reconstruir la historia de duplicaciones y pérdidas de cada familia génica utilizaremos GeneRax, un software que implementa un modelo de probabilidad basado en un proceso de nacimiento-muerte (birth-death). Aunque GeneRax utiliza probabilidades de eventos evolutivos, el fundamento del modelo es se puede expresar mediante una ecuacion diferencial simple:
+Para reconstruir la historia de duplicaciones y pérdidas de cada familia génica utilizaremos GeneRax, un software que implementa un modelo de probabilidad basado en un proceso de nacimiento-muerte (birth-death)[@morelGeneRaxToolSpeciesTreeAware2020]. Aunque GeneRax utiliza probabilidades de eventos evolutivos, el fundamento del modelo es se puede expresar mediante una ecuacion diferencial simple:
 
 $\frac{dN}{dt} = \lambda N - \mu N$
 
