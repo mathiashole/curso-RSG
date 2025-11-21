@@ -47,7 +47,7 @@ El parasitismo no implican únicamente pérdida de genes, sino también reorgani
 
 Los Kinetoplástidos son un grupo de eucariotas que representan un buen modelo para estudiar estos procesos evolutivos, dado que incluye tanto organismos de vida libre (*Bodo saltans, Neobodo designis*) asi como parasitos de gran relevancia médica (*Trypanosoma y Leishmania*) y agrícola (*Phytomonas*) [@opperdoesComparativeMetabolismFreeliving2016; @yazakiGlobalKinetoplasteaPhylogeny2017]. Esta diversidad en un unico grupo permite establecer comparaciones directas a nivel evolutivo sobre ganancia y perdidas de genes [@yazakiGlobalKinetoplasteaPhylogeny2017].
 
-Los genomas de *Trypanosoma brucei*, *Trypanosoma cruzi*, *Leishmania major* y *Pythomonas* tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies.
+Los genomas de *Trypanosoma brucei*, *Trypanosoma cruzi*, *Leishmania major* y *Pythomonas* tienen una organización genómica compleja, caracterizada por una alta proporción familias génicas implicadas en la interacción con el hospedador, la evasión inmune y la adhesión celular. Entre las familias con mayor representacion se ecuentran trans-sialidasas, mucinas, MASP, amastinas y GP63, con distinto grados de divergencia entre e intra especies [@yurchenkoGenomicsTrypanosomatidaeWhere2021].
 
 El origen evolutivo de estas familias genicas asociadas al estilo de vida parasitario continúa siendo un tema en discusion. Una interrogante clave para entender los procesos evolutivos es determinar si estas familias génicas son innovaciones que surgieron junto con la transición hacia el parasitismo, o si derivan de genes de especies ancestrales preexistentes que posteriormente pudieron diversificarse y expandirse en respuesta a presiones selectivas ambientales como la interacción con el hospedador.
 
@@ -109,7 +109,7 @@ $\frac{dN}{dt} = \lambda N - \mu N$
 
 donde $N(t)$ es el número esperado de copias génicas en el tiempo, $\lambda$ es la tasa de duplicación y $\mu$ la tasa de pérdida. Mostrando cómo el tamaño de una familia génica cambia a lo largo del tiempo entre duplicaciones (nacimiento) y pérdidas (muerte).
 
-En este sentido, GeneRax extiende esta formulación a un marco probabilístico del proceso nacimiento–muerte, modelando la probabilidad de observar k copias. Esta formulación les permite inferir eventos discretos de duplicación y pérdida sobre las ramas del árbol de especies, integrando simultáneamente la verosimilitud del alineamiento y de la reconciliación.
+En este sentido, GeneRax extiende esta formulación a un marco probabilístico del proceso nacimiento-muerte, modelando la probabilidad de observar k copias. Esta formulación les permite inferir eventos discretos de duplicación y pérdida sobre las ramas del árbol de especies, integrando simultáneamente la verosimilitud del alineamiento y de la reconciliación.
 
 ### Desarrollo de un pipeline de trabajo reproducible
 
